@@ -1,23 +1,27 @@
-[
-{
-"toc_title":  "Docs",    
-"href":  "/",    
-"level":  1,    
-"children":  [    
-{ 
-"href":  "/powershell/azurepack/",           
-"homepage":  "/powershell/azurepack/",
-"toc_title":  "azurepack",
-"level":  2,
-"children":  [
-{
-"href":  "/powershell/azurepack/ap-cmdlets/", 
-"homepage":  "/powershell/azurepack/ap-cmdlets/",
-"toc_title":  "azurepack cmdlets",    
-"level":  3
-} 
-]
-}
-]
-}
-]
+[{
+    "toc_title":  "Docs",
+    "href":  "/",
+    "level":  1,
+    "children":  [
+                     {
+                         "href":  "/powershell/azurepack/",
+                         "homepage":  "/powershell/azurepack/",
+                         "toc_title":  "azurepack",
+                         "level":  2,
+                         "children":  [
+                                          {
+                                              "href":  "/powershell/azurepack/ap-cmdlets/",
+                                              "homepage":  "/powershell/azurepack/ap-cmdlets/",
+                                              "toc_title":  "azurepack cmdlets",
+                                              "level":  3
+                                          },
+                                          {
+                                              "homepage":  "/powershell/azurepack/AzurePack-cmdlets/",
+                                              "toc_title":  "AzurePack-cmdlets",
+                                              "href":  "/powershell/azurepack/AzurePack-cmdlets/",
+                                              "level":  3
+                                          }
+                                      ]
+                     }
+                 ]
+}]
