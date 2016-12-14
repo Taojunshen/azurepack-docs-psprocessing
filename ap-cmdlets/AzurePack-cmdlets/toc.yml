@@ -1,0 +1,343 @@
+- name: AboutTopics
+  items:
+    - name: vlatest
+      items:
+        - name: about_WAP_Updating_Help
+          href: ../AboutTopics/vlatest/about_WAP_Updating_Help.md
+- name: Administration
+  items:
+    - name: v1.0
+      href: ../Administration/v1.0/MgmtSvcAdmin.md
+      items:
+        - name: Add-MgmtSvcAddOn
+          href: ../Administration/v1.0/Add-MgmtSvcAddOn.md
+        - name: Add-MgmtSvcAddOnService
+          href: ../Administration/v1.0/Add-MgmtSvcAddOnService.md
+        - name: Add-MgmtSvcListQuota
+          href: ../Administration/v1.0/Add-MgmtSvcListQuota.md
+        - name: Add-MgmtSvcPlan
+          href: ../Administration/v1.0/Add-MgmtSvcPlan.md
+        - name: Add-MgmtSvcPlanAddOn
+          href: ../Administration/v1.0/Add-MgmtSvcPlanAddOn.md
+        - name: Add-MgmtSvcPlanService
+          href: ../Administration/v1.0/Add-MgmtSvcPlanService.md
+        - name: Add-MgmtSvcQuotaSetting
+          href: ../Administration/v1.0/Add-MgmtSvcQuotaSetting.md
+        - name: Add-MgmtSvcResourceProvider
+          href: ../Administration/v1.0/Add-MgmtSvcResourceProvider.md
+        - name: Add-MgmtSvcSubscription
+          href: ../Administration/v1.0/Add-MgmtSvcSubscription.md
+        - name: Add-MgmtSvcSubscriptionAddon
+          href: ../Administration/v1.0/Add-MgmtSvcSubscriptionAddon.md
+        - name: Add-MgmtSvcUser
+          href: ../Administration/v1.0/Add-MgmtSvcUser.md
+        - name: Disable-MgmtSvcSubscription
+          href: ../Administration/v1.0/Disable-MgmtSvcSubscription.md
+        - name: Enable-MgmtSvcSubscription
+          href: ../Administration/v1.0/Enable-MgmtSvcSubscription.md
+        - name: Get-MgmtSvcAddOn
+          href: ../Administration/v1.0/Get-MgmtSvcAddOn.md
+        - name: Get-MgmtSvcPlan
+          href: ../Administration/v1.0/Get-MgmtSvcPlan.md
+        - name: Get-MgmtSvcPlanMetrics
+          href: ../Administration/v1.0/Get-MgmtSvcPlanMetrics.md
+        - name: Get-MgmtSvcResourceProvider
+          href: ../Administration/v1.0/Get-MgmtSvcResourceProvider.md
+        - name: Get-MgmtSvcSubscription
+          href: ../Administration/v1.0/Get-MgmtSvcSubscription.md
+        - name: Get-MgmtSvcSubscriptionUsage
+          href: ../Administration/v1.0/Get-MgmtSvcSubscriptionUsage.md
+        - name: Get-MgmtSvcToken
+          href: ../Administration/v1.0/Get-MgmtSvcToken.md
+        - name: Get-MgmtSvcUser
+          href: ../Administration/v1.0/Get-MgmtSvcUser.md
+        - name: Move-MgmtSvcSubscription
+          href: ../Administration/v1.0/Move-MgmtSvcSubscription.md
+        - name: New-MgmtSvcQuotaList
+          href: ../Administration/v1.0/New-MgmtSvcQuotaList.md
+        - name: Remove-MgmtSvcAddOn
+          href: ../Administration/v1.0/Remove-MgmtSvcAddOn.md
+        - name: Remove-MgmtSvcAddOnService
+          href: ../Administration/v1.0/Remove-MgmtSvcAddOnService.md
+        - name: Remove-MgmtSvcPlan
+          href: ../Administration/v1.0/Remove-MgmtSvcPlan.md
+        - name: Remove-MgmtSvcPlanAddOn
+          href: ../Administration/v1.0/Remove-MgmtSvcPlanAddOn.md
+        - name: Remove-MgmtSvcPlanService
+          href: ../Administration/v1.0/Remove-MgmtSvcPlanService.md
+        - name: Remove-MgmtSvcResourceProvider
+          href: ../Administration/v1.0/Remove-MgmtSvcResourceProvider.md
+        - name: Remove-MgmtSvcSubscription
+          href: ../Administration/v1.0/Remove-MgmtSvcSubscription.md
+        - name: Remove-MgmtSvcSubscriptionAddon
+          href: ../Administration/v1.0/Remove-MgmtSvcSubscriptionAddon.md
+        - name: Remove-MgmtSvcUser
+          href: ../Administration/v1.0/Remove-MgmtSvcUser.md
+        - name: Set-MgmtSvcAddOn
+          href: ../Administration/v1.0/Set-MgmtSvcAddOn.md
+        - name: Set-MgmtSvcPlan
+          href: ../Administration/v1.0/Set-MgmtSvcPlan.md
+        - name: Set-MgmtSvcResourceProvider
+          href: ../Administration/v1.0/Set-MgmtSvcResourceProvider.md
+        - name: Set-MgmtSvcUser
+          href: ../Administration/v1.0/Set-MgmtSvcUser.md
+        - name: Sync-MgmtSvcAddOn
+          href: ../Administration/v1.0/Sync-MgmtSvcAddOn.md
+        - name: Sync-MgmtSvcPlan
+          href: ../Administration/v1.0/Sync-MgmtSvcPlan.md
+        - name: Sync-MgmtSvcSubscription
+          href: ../Administration/v1.0/Sync-MgmtSvcSubscription.md
+        - name: Test-MgmtSvcResourceProvider
+          href: ../Administration/v1.0/Test-MgmtSvcResourceProvider.md
+        - name: Update-MgmtSvcAddOnQuota
+          href: ../Administration/v1.0/Update-MgmtSvcAddOnQuota.md
+        - name: Update-MgmtSvcCoAdministrator
+          href: ../Administration/v1.0/Update-MgmtSvcCoAdministrator.md
+        - name: Update-MgmtSvcPlanQuota
+          href: ../Administration/v1.0/Update-MgmtSvcPlanQuota.md
+- name: Configuration
+  items:
+    - name: v1.0
+      href: ../Configuration/v1.0/MgmtSvcConfig.md
+      items:
+        - name: Add-MgmtSvcAdminUser
+          href: ../Configuration/v1.0/Add-MgmtSvcAdminUser.md
+        - name: Add-MgmtSvcDatabaseUser
+          href: ../Configuration/v1.0/Add-MgmtSvcDatabaseUser.md
+        - name: Add-MgmtSvcResourceProviderConfiguration
+          href: ../Configuration/v1.0/Add-MgmtSvcResourceProviderConfiguration.md
+        - name: Get-MgmtSvcAdminUser
+          href: ../Configuration/v1.0/Get-MgmtSvcAdminUser.md
+        - name: Get-MgmtSvcDatabaseSetting
+          href: ../Configuration/v1.0/Get-MgmtSvcDatabaseSetting.md
+        - name: Get-MgmtSvcDefaultDatabaseName
+          href: ../Configuration/v1.0/Get-MgmtSvcDefaultDatabaseName.md
+        - name: Get-MgmtSvcEndpoint
+          href: ../Configuration/v1.0/Get-MgmtSvcEndpoint.md
+        - name: Get-MgmtSvcFeature
+          href: ../Configuration/v1.0/Get-MgmtSvcFeature.md
+        - name: Get-MgmtSvcFqdn
+          href: ../Configuration/v1.0/Get-MgmtSvcFqdn.md
+        - name: Get-MgmtSvcNamespace
+          href: ../Configuration/v1.0/Get-MgmtSvcNamespace.md
+        - name: Get-MgmtSvcNotificationSubscriber
+          href: ../Configuration/v1.0/Get-MgmtSvcNotificationSubscriber.md
+        - name: Get-MgmtSvcResourceProviderConfiguration
+          href: ../Configuration/v1.0/Get-MgmtSvcResourceProviderConfiguration.md
+        - name: Get-MgmtSvcSchema
+          href: ../Configuration/v1.0/Get-MgmtSvcSchema.md
+        - name: Get-MgmtSvcSetting
+          href: ../Configuration/v1.0/Get-MgmtSvcSetting.md
+        - name: Initialize-MgmtSvcFeature
+          href: ../Configuration/v1.0/Initialize-MgmtSvcFeature.md
+        - name: Initialize-MgmtSvcProduct
+          href: ../Configuration/v1.0/Initialize-MgmtSvcProduct.md
+        - name: Install-MgmtSvcDatabase
+          href: ../Configuration/v1.0/Install-MgmtSvcDatabase.md
+        - name: New-MgmtSvcMachineKey
+          href: ../Configuration/v1.0/New-MgmtSvcMachineKey.md
+        - name: New-MgmtSvcPassword
+          href: ../Configuration/v1.0/New-MgmtSvcPassword.md
+        - name: New-MgmtSvcResourceProviderConfiguration
+          href: ../Configuration/v1.0/New-MgmtSvcResourceProviderConfiguration.md
+        - name: New-MgmtSvcSelfSignedCertificate
+          href: ../Configuration/v1.0/New-MgmtSvcSelfSignedCertificate.md
+        - name: Protect-MgmtSvcConfiguration
+          href: ../Configuration/v1.0/Protect-MgmtSvcConfiguration.md
+        - name: Remove-MgmtSvcAdminUser
+          href: ../Configuration/v1.0/Remove-MgmtSvcAdminUser.md
+        - name: Remove-MgmtSvcDatabaseUser
+          href: ../Configuration/v1.0/Remove-MgmtSvcDatabaseUser.md
+        - name: Remove-MgmtSvcNotificationSubscriber
+          href: ../Configuration/v1.0/Remove-MgmtSvcNotificationSubscriber.md
+        - name: Remove-MgmtSvcResourceProviderConfiguration
+          href: ../Configuration/v1.0/Remove-MgmtSvcResourceProviderConfiguration.md
+        - name: Reset-MgmtSvcPassphrase
+          href: ../Configuration/v1.0/Reset-MgmtSvcPassphrase.md
+        - name: Set-MgmtSvcCeip
+          href: ../Configuration/v1.0/Set-MgmtSvcCeip.md
+        - name: Set-MgmtSvcDatabaseSetting
+          href: ../Configuration/v1.0/Set-MgmtSvcDatabaseSetting.md
+        - name: Set-MgmtSvcDatabaseUser
+          href: ../Configuration/v1.0/Set-MgmtSvcDatabaseUser.md
+        - name: Set-MgmtSvcFqdn
+          href: ../Configuration/v1.0/Set-MgmtSvcFqdn.md
+        - name: Set-MgmtSvcIdentityProviderSettings
+          href: ../Configuration/v1.0/Set-MgmtSvcIdentityProviderSettings.md
+        - name: Set-MgmtSvcNotificationSubscriber
+          href: ../Configuration/v1.0/Set-MgmtSvcNotificationSubscriber.md
+        - name: Set-MgmtSvcPassphrase
+          href: ../Configuration/v1.0/Set-MgmtSvcPassphrase.md
+        - name: Set-MgmtSvcRelyingPartySettings
+          href: ../Configuration/v1.0/Set-MgmtSvcRelyingPartySettings.md
+        - name: Set-MgmtSvcSetting
+          href: ../Configuration/v1.0/Set-MgmtSvcSetting.md
+        - name: Test-MgmtSvcDatabase
+          href: ../Configuration/v1.0/Test-MgmtSvcDatabase.md
+        - name: Test-MgmtSvcPassphrase
+          href: ../Configuration/v1.0/Test-MgmtSvcPassphrase.md
+        - name: Test-MgmtSvcProtectedConfiguration
+          href: ../Configuration/v1.0/Test-MgmtSvcProtectedConfiguration.md
+        - name: Uninstall-MgmtSvcDatabase
+          href: ../Configuration/v1.0/Uninstall-MgmtSvcDatabase.md
+        - name: Unprotect-MgmtSvcConfiguration
+          href: ../Configuration/v1.0/Unprotect-MgmtSvcConfiguration.md
+        - name: Update-MgmtSvcV1Data
+          href: ../Configuration/v1.0/Update-MgmtSvcV1Data.md
+- name: MySQL
+  items:
+    - name: v1.0
+      href: ../MySQL/v1.0/MgmtSvcMySql.md
+      items:
+        - name: Add-MgmtSvcMySqlHostingServer
+          href: ../MySQL/v1.0/Add-MgmtSvcMySqlHostingServer.md
+        - name: Add-MgmtSvcMySqlServerGroup
+          href: ../MySQL/v1.0/Add-MgmtSvcMySqlServerGroup.md
+        - name: Get-MgmtSvcMySqlDatabase
+          href: ../MySQL/v1.0/Get-MgmtSvcMySqlDatabase.md
+        - name: Get-MgmtSvcMySqlHostingServer
+          href: ../MySQL/v1.0/Get-MgmtSvcMySqlHostingServer.md
+        - name: Get-MgmtSvcMySqlHostingServerByGroup
+          href: ../MySQL/v1.0/Get-MgmtSvcMySqlHostingServerByGroup.md
+        - name: Get-MgmtSvcMySqlHostingServerMetric
+          href: ../MySQL/v1.0/Get-MgmtSvcMySqlHostingServerMetric.md
+        - name: Get-MgmtSvcMySqlServerGroup
+          href: ../MySQL/v1.0/Get-MgmtSvcMySqlServerGroup.md
+        - name: Remove-MgmtSvcMySqlHostingServer
+          href: ../MySQL/v1.0/Remove-MgmtSvcMySqlHostingServer.md
+        - name: Remove-MgmtSvcMySqlServerGroup
+          href: ../MySQL/v1.0/Remove-MgmtSvcMySqlServerGroup.md
+        - name: Set-MgmtSvcMySqlHostingServer
+          href: ../MySQL/v1.0/Set-MgmtSvcMySqlHostingServer.md
+        - name: Test-MgmtSvcMySqlHostingServer
+          href: ../MySQL/v1.0/Test-MgmtSvcMySqlHostingServer.md
+- name: SQLServer
+  items:
+    - name: v1.0
+      href: ../SQLServer/v1.0/MgmtSvcSqlServer.md
+      items:
+        - name: Add-MgmtSvcSqlHostingServer
+          href: ../SQLServer/v1.0/Add-MgmtSvcSqlHostingServer.md
+        - name: Add-MgmtSvcSqlServerGroup
+          href: ../SQLServer/v1.0/Add-MgmtSvcSqlServerGroup.md
+        - name: Get-MgmtSvcSqlDatabase
+          href: ../SQLServer/v1.0/Get-MgmtSvcSqlDatabase.md
+        - name: Get-MgmtSvcSqlHostingServer
+          href: ../SQLServer/v1.0/Get-MgmtSvcSqlHostingServer.md
+        - name: Get-MgmtSvcSqlHostingServerByGroup
+          href: ../SQLServer/v1.0/Get-MgmtSvcSqlHostingServerByGroup.md
+        - name: Get-MgmtSvcSqlHostingServerMetric
+          href: ../SQLServer/v1.0/Get-MgmtSvcSqlHostingServerMetric.md
+        - name: Get-MgmtSvcSqlServerGroup
+          href: ../SQLServer/v1.0/Get-MgmtSvcSqlServerGroup.md
+        - name: Remove-MgmtSvcSqlHostingServer
+          href: ../SQLServer/v1.0/Remove-MgmtSvcSqlHostingServer.md
+        - name: Remove-MgmtSvcSqlServerGroup
+          href: ../SQLServer/v1.0/Remove-MgmtSvcSqlServerGroup.md
+        - name: Set-MgmtSvcSqlHostingServer
+          href: ../SQLServer/v1.0/Set-MgmtSvcSqlHostingServer.md
+        - name: Test-MgmtSvcSqlHostingServer
+          href: ../SQLServer/v1.0/Test-MgmtSvcSqlHostingServer.md
+- name: Websites
+  items:
+    - name: v1.0
+      href: ../Websites/v1.0/WebSites.md
+      items:
+        - name: Get-WebSitesApplication
+          href: ../Websites/v1.0/Get-WebSitesApplication.md
+        - name: Get-WebSitesConfig
+          href: ../Websites/v1.0/Get-WebSitesConfig.md
+        - name: Get-WebSitesEvent
+          href: ../Websites/v1.0/Get-WebSitesEvent.md
+        - name: Get-WebSitesHostName
+          href: ../Websites/v1.0/Get-WebSitesHostName.md
+        - name: Get-WebSitesOperation
+          href: ../Websites/v1.0/Get-WebSitesOperation.md
+        - name: Get-WebSitesOwnerCertificate
+          href: ../Websites/v1.0/Get-WebSitesOwnerCertificate.md
+        - name: Get-WebSitesPolicy
+          href: ../Websites/v1.0/Get-WebSitesPolicy.md
+        - name: Get-WebSitesServer
+          href: ../Websites/v1.0/Get-WebSitesServer.md
+        - name: Get-WebSitesSite
+          href: ../Websites/v1.0/Get-WebSitesSite.md
+        - name: Get-WebSitesSslBinding
+          href: ../Websites/v1.0/Get-WebSitesSslBinding.md
+        - name: Get-WebSitesSubscription
+          href: ../Websites/v1.0/Get-WebSitesSubscription.md
+        - name: Get-WebSitesUser
+          href: ../Websites/v1.0/Get-WebSitesUser.md
+        - name: Get-WebSitesVirtualFarm
+          href: ../Websites/v1.0/Get-WebSitesVirtualFarm.md
+        - name: Initialize-WebSitesInstance
+          href: ../Websites/v1.0/Initialize-WebSitesInstance.md
+        - name: New-WebSitesApplication
+          href: ../Websites/v1.0/New-WebSitesApplication.md
+        - name: New-WebSitesConfig
+          href: ../Websites/v1.0/New-WebSitesConfig.md
+        - name: New-WebSitesHostName
+          href: ../Websites/v1.0/New-WebSitesHostName.md
+        - name: New-WebSitesPolicy
+          href: ../Websites/v1.0/New-WebSitesPolicy.md
+        - name: New-WebSitesServer
+          href: ../Websites/v1.0/New-WebSitesServer.md
+        - name: New-WebSitesSite
+          href: ../Websites/v1.0/New-WebSitesSite.md
+        - name: New-WebSitesSslBinding
+          href: ../Websites/v1.0/New-WebSitesSslBinding.md
+        - name: New-WebSitesSubscription
+          href: ../Websites/v1.0/New-WebSitesSubscription.md
+        - name: New-WebSitesUser
+          href: ../Websites/v1.0/New-WebSitesUser.md
+        - name: Remove-WebSitesApplication
+          href: ../Websites/v1.0/Remove-WebSitesApplication.md
+        - name: Remove-WebSitesConfig
+          href: ../Websites/v1.0/Remove-WebSitesConfig.md
+        - name: Remove-WebSitesHostName
+          href: ../Websites/v1.0/Remove-WebSitesHostName.md
+        - name: Remove-WebSitesOperation
+          href: ../Websites/v1.0/Remove-WebSitesOperation.md
+        - name: Remove-WebSitesPolicy
+          href: ../Websites/v1.0/Remove-WebSitesPolicy.md
+        - name: Remove-WebSitesServer
+          href: ../Websites/v1.0/Remove-WebSitesServer.md
+        - name: Remove-WebSitesSite
+          href: ../Websites/v1.0/Remove-WebSitesSite.md
+        - name: Remove-WebSitesSslBinding
+          href: ../Websites/v1.0/Remove-WebSitesSslBinding.md
+        - name: Remove-WebSitesSubscription
+          href: ../Websites/v1.0/Remove-WebSitesSubscription.md
+        - name: Remove-WebSitesUser
+          href: ../Websites/v1.0/Remove-WebSitesUser.md
+        - name: Repair-WebSitesServer
+          href: ../Websites/v1.0/Repair-WebSitesServer.md
+        - name: Reset-WebSitesConnectionString
+          href: ../Websites/v1.0/Reset-WebSitesConnectionString.md
+        - name: Restart-WebSitesServer
+          href: ../Websites/v1.0/Restart-WebSitesServer.md
+        - name: Restart-WebSitesSite
+          href: ../Websites/v1.0/Restart-WebSitesSite.md
+        - name: Set-WebSitesConfig
+          href: ../Websites/v1.0/Set-WebSitesConfig.md
+        - name: Set-WebSitesConnectionString
+          href: ../Websites/v1.0/Set-WebSitesConnectionString.md
+        - name: Set-WebSitesPolicy
+          href: ../Websites/v1.0/Set-WebSitesPolicy.md
+        - name: Set-WebSitesServer
+          href: ../Websites/v1.0/Set-WebSitesServer.md
+        - name: Set-WebSitesSite
+          href: ../Websites/v1.0/Set-WebSitesSite.md
+        - name: Set-WebSitesSslConfig
+          href: ../Websites/v1.0/Set-WebSitesSslConfig.md
+        - name: Set-WebSitesSubscription
+          href: ../Websites/v1.0/Set-WebSitesSubscription.md
+        - name: Set-WebSitesUser
+          href: ../Websites/v1.0/Set-WebSitesUser.md
+        - name: Set-WebSitesVirtualFarm
+          href: ../Websites/v1.0/Set-WebSitesVirtualFarm.md
+        - name: Start-WebSitesOperation
+          href: ../Websites/v1.0/Start-WebSitesOperation.md
+        - name: Test-WebSitesServer
+          href: ../Websites/v1.0/Test-WebSitesServer.md
+        - name: Update-WebSitesDatabase
+          href: ../Websites/v1.0/Update-WebSitesDatabase.md
