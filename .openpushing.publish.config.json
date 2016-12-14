@@ -1,23 +1,25 @@
 {
 "need_generate_pdf": false,  
-"need_generate_intellisense": false,  
-"docsets_to_publish": [    
+"need_generate_intellisense": false,    
+"enable_incremental_build": true,
+ "docsets_to_publish": [    
 {      
-"docset_name": "AzurePack-cmdlets",      
-"build_source_folder": "AzurePack-cmdlets",      
-"build_output_subfolder": "AzurePack-cmdlets",     
+"docset_name": "azurepack-cmdlets",      
+"build_source_folder": "azurepack-cmdlets",      
+"build_output_subfolder": "azurepack-cmdlets",     
 "locale": "en-us",      
 "version": 0,      
-"open_to_public_contributors": true,      
-"type_mapping": {        
+ "type_mapping": {        
 "Conceptual": "Content",        
 "ManagedReference": "Content",        
-"RestApi": "Content"      
+"RestApi": "Content"  
+     "AzureCli": "Content"
 },      
 "build_entry_point": "docs",      
 "template_folder": "_themes",      
 "customized_template_paths": [        
-"azurecli/azurecli"]    
+"azurecli/azurecli"
+]    
 }  
 ],  
 "notification_subscribers": [],  
