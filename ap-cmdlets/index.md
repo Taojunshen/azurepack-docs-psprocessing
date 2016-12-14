@@ -1,3 +1,7 @@
+---
+ms.assetid:9591dc83-6fcf-4115-9a15-4f661d12f63e
+---
+
 # Welcome to Windows Azure Pack Cmdlets reference
 
 This section contains the help topics and about topics for the Windows Azure Pack for Windows Server cmdlets.
