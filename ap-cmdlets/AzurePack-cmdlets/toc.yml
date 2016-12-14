@@ -1,3 +1,9 @@
+- name: AboutTopics
+  items:
+    - name: vlatest
+      items:
+        - name: about_WAP_Updating_Help
+          href: ../AboutTopics/vlatest/about_WAP_Updating_Help.md
 - name: Administration
   items:
     - name: v1.0
