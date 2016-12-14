@@ -6,18 +6,18 @@
                      {
                          "href":  "/powershell/azurepack/",
                          "homepage":  "/powershell/azurepack/",
-                         "toc_title":  "azurepack",
+                         "toc_title":  "Azure Pack Cmdlets",
                          "level":  2,
                          "children":  [
                                           {
                                               "href":  "/powershell/azurepack/ap-cmdlets/",
                                               "homepage":  "/powershell/azurepack/ap-cmdlets/",
-                                              "toc_title":  "azurepack cmdlets",
+                                              "toc_title":  "Azure Pack Cmdlets",
                                               "level":  3
                                           },
                                           {
                                               "homepage":  "/powershell/azurepack/AzurePack-cmdlets/",
-                                              "toc_title":  "AzurePack-cmdlets",
+                                              "toc_title":  "Azure Pack Cmdlets",
                                               "href":  "/powershell/azurepack/AzurePack-cmdlets/",
                                               "level":  3
                                           }
