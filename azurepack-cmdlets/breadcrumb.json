@@ -1,0 +1,23 @@
+[
+{
+"toc_title":  "Docs",    
+"href":  "/",    
+"level":  1,    
+"children":  [    
+{ 
+"href":  "/powershell/azurepack/",           
+"homepage":  "/powershell/azurepack/",
+"toc_title":  "azurepack",
+"level":  2,
+"children":  [
+{
+"href":  "/powershell/azurepack/azurepack-cmdlets/", 
+"homepage":  "/powershell/azurepack/azurepack-cmdlets/",
+"toc_title":  "azurepack cmdlets",    
+"level":  3
+} 
+]
+}
+]
+}
+]
