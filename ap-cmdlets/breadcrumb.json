@@ -15,12 +15,7 @@
                                               "toc_title":  "Azure Pack Cmdlets",
                                               "level":  3
                                           },
-                                          {
-                                              "homepage":  "/powershell/azurepack/AzurePack-cmdlets/",
-                                              "toc_title":  "Azure Pack Cmdlets",
-                                              "href":  "/powershell/azurepack/AzurePack-cmdlets/",
-                                              "level":  3
-                                          }
+                                          
                                       ]
                      }
                  ]
