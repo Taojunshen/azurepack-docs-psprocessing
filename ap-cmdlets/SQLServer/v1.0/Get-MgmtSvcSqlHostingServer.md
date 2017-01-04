@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.SqlServer.PowerShell.dll-Help.xml
 ms.assetid: B3C2EEFC-46F9-4352-A52C-249235E327CD
 online version: http://go.microsoft.com/fwlink/?LinkID=321810
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 10:42 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/SQLServer/v1.0/Get-MgmtSvcSqlHostingServer.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/SQLServer/v1.0/Get-MgmtSvcSqlHostingServer.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/SQLServer/v1.0/Get-MgmtSvcSqlHostingServer.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/eb7bff1251dc2a22eafa120c35cbbc43529d3762/AzurePack-cmdlets/SQLServer/v1.0/Get-MgmtSvcSqlHostingServer.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -39,7 +39,7 @@ You can also get a specified number of servers by using the *First* and *Skip* p
 
 ### Example 1: Get a specific SQL hosting server by name
 ```
-PS C:\>Get-MgmtSvcSqlHostingServer -AdminUri "https://Computer01:30004" -Token $Token -Name "SQLServer01.Contoso.com"
+PS C:\> Get-MgmtSvcSqlHostingServer -AdminUri "https://Computer01:30004" -Token $Token -Name "SQLServer01.Contoso.com"
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.

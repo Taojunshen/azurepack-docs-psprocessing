@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: 916DAC30-3E8E-4797-A9D1-9B765A79353B
 online version: http://go.microsoft.com/fwlink/?LinkID=321233
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 9:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/Get-WebSitesOwnerCertificate.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/Get-WebSitesOwnerCertificate.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/Get-WebSitesOwnerCertificate.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9b04ebf7a96dfac95b0cdb4f6ad2c39512dc39eb/AzurePack-cmdlets/Websites/v1.0/Get-WebSitesOwnerCertificate.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -39,7 +39,7 @@ When using **Get-WebSitesOwnerCertificate** you might see owner names similar to
 
 This is a calculated name consisting of a website subscription name (Subscription01) and a web space (DefaultWebSpace).
 Calculated names are employed if a certificate is not explicitly assigned an owner name.
-If you do not assign an owner then the system will derive a calculated name and automatically set the OwnerName property to the calculated name.
+If you do not assign an owner then the system will derive a calculated name and automatically set the **OwnerName** property to the calculated name.
 
 ## EXAMPLES
 

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.MySql.PowerShell.dll-Help.xml
 ms.assetid: D10322FE-2BB4-4D3D-9D91-4B8399D55567
 online version: http://go.microsoft.com/fwlink/?LinkID=321827
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 6:34 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/MySQL/v1.0/Set-MgmtSvcMySqlHostingServer.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/MySQL/v1.0/Set-MgmtSvcMySqlHostingServer.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/MySQL/v1.0/Set-MgmtSvcMySqlHostingServer.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9ea7de3be93c45294ed2319f140bd6d622b027db/AzurePack-cmdlets/MySQL/v1.0/Set-MgmtSvcMySqlHostingServer.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -44,7 +44,7 @@ The **Set-MgmtSvcMySqlHostingServer** cmdlet updates a MySQL hosting server.
 
 ### Example 1: Update a MySQL hosting server
 ```
-PS C:\>$Creds = Get-Credential
+PS C:\> $Creds = Get-Credential
 PS C:\> Set-MgmtSvcMySqlHostingServer -AdminUri "https://Computer01:30004" -Token $Token -Name "MySQLServer01.Contoso.com" -TotalSpaceMB 4096 -User $Creds -HostingServerId "v48l25"
 ```
 
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ### -DisableCertificateValidation
 Disables certificate validation for the Windows Azure Pack installation.
 
-If you specifiy this parameter, you can use self-signed certificates.
+If you specify this parameter, you can use self-signed certificates.
 
 ```yaml
 Type: SwitchParameter

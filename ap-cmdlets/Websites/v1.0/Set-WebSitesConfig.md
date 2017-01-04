@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: BF524BC0-7540-490E-97CA-20DD2DE538CE
 online version: http://go.microsoft.com/fwlink/?LinkID=321266
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 6:14 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/Set-WebSitesConfig.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/Set-WebSitesConfig.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/Set-WebSitesConfig.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/34620cb46df1eb18f9e1c9a42639b53390ad35e3/AzurePack-cmdlets/Websites/v1.0/Set-WebSitesConfig.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -36,7 +36,7 @@ The **Set-WebSitesConfig** cmdlet sets a website configuration type.
 
 ### Example 1: Set a configuration type
 ```
-PS C:\>Set-WebSitesConfig -Type "AppHostConfig"
+PS C:\> Set-WebSitesConfig -Type "AppHostConfig"
 ```
 
 This command sets the AppHostConfig configuration type.

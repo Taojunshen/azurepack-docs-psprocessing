@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Admin.PowerShell.dll-Help.xml
 ms.assetid: CB2632D0-5311-4FC9-9828-853D71B2F221
 online version: http://go.microsoft.com/fwlink/?LinkID=316360
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 6:48 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Administration/v1.0/Test-MgmtSvcResourceProvider.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Administration/v1.0/Test-MgmtSvcResourceProvider.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Administration/v1.0/Test-MgmtSvcResourceProvider.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/97a55db972036fa7bf413cbe2fbdbe06fef1d3a1/AzurePack-cmdlets/Administration/v1.0/Test-MgmtSvcResourceProvider.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -56,13 +56,13 @@ The **Test-MgmtSvcResourceProvider** validates a resource provider.
 
 ### Example 1: Test a resource provider
 ```
-PS C:\>$AdminUser = Get-Credential
+PS C:\> $AdminUser = Get-Credential
 PS C:\> Test-MgmtSvcResourceProvider -TestUri 'https://testserver01:30010/'-Name 'sqlservers' -DisplayName 'SQL Servers' -InstanceDisplayName 'SQL Servers' -AdminAuthenticationUser $AdminUser -AdminUri "https://Computer01:30004" -Token $Token -DisableCertificateValidation
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.
 
-The first command prompts the user for credentials and stores the resulting PSCredential object in the $AdminUser variable.
+The first command prompts the user for credentials and stores the resulting **PSCredential** object in the $AdminUser variable.
 
 The second command tests the resource provider named sqlservers.
 
@@ -90,8 +90,8 @@ Accept wildcard characters: False
 ```
 
 ### -AdminAuthenticationUser
-Specifies, as a PSCredential object, an administrative user name and password to connect to a resource provider.
-To get a PSCredential object, use the **Get-Credential** cmdlet.
+Specifies, as a **PSCredential** object, an administrative user name and password to connect to a resource provider.
+To get a **PSCredential** object, use the **Get-Credential** cmdlet.
 
 ```yaml
 Type: PSCredential
@@ -199,7 +199,7 @@ Accept wildcard characters: False
 ### -DisableCertificateValidation
 Disables certificate validation for the Windows Azure Pack installation.
 
-If you specifiy this parameter, you can use self-signed certificates.
+If you specify this parameter, you can use self-signed certificates.
 
 ```yaml
 Type: SwitchParameter

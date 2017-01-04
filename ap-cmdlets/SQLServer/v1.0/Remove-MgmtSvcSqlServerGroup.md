@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.SqlServer.PowerShell.dll-Help.xml
 ms.assetid: 6165B8FD-AEF9-4FE0-B725-50A5756A8B50
 online version: http://go.microsoft.com/fwlink/?LinkID=321815
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 10:42 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/SQLServer/v1.0/Remove-MgmtSvcSqlServerGroup.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/SQLServer/v1.0/Remove-MgmtSvcSqlServerGroup.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/SQLServer/v1.0/Remove-MgmtSvcSqlServerGroup.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/eb7bff1251dc2a22eafa120c35cbbc43529d3762/AzurePack-cmdlets/SQLServer/v1.0/Remove-MgmtSvcSqlServerGroup.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -34,9 +34,9 @@ The **Remove-MgmtSvcSqlServerGroup** cmdlet removes a SQL Server group from Wind
 
 ## EXAMPLES
 
-### Example 1: Remove a SQL Sserver groupS
+### Example 1: Remove a SQL Server groups
 ```
-PS C:\>Remove-MgmtSvcSqlServerGroup -AdminUri "https://Computer01:30004" -Token $Token -ServerGroupId "g5sho0"
+PS C:\> Remove-MgmtSvcSqlServerGroup -AdminUri "https://Computer01:30004" -Token $Token -ServerGroupId "g5sho0"
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.
@@ -125,7 +125,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs. The cmdlet is not run.
+Shows what would happen if the cmdlet runs. 
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.SqlServer.PowerShell.dll-Help.xml
 ms.assetid: F75D1E78-87BF-4C25-BE2A-01850B625279
 online version: http://go.microsoft.com/fwlink/?LinkID=321807
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 10:42 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/SQLServer/v1.0/Add-MgmtSvcSqlHostingServer.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/SQLServer/v1.0/Add-MgmtSvcSqlHostingServer.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/SQLServer/v1.0/Add-MgmtSvcSqlHostingServer.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/eb7bff1251dc2a22eafa120c35cbbc43529d3762/AzurePack-cmdlets/SQLServer/v1.0/Add-MgmtSvcSqlHostingServer.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -45,7 +45,7 @@ The **Add-MgmtSvcSqlHostingServer** adds a SQL Server hosting server to Windows 
 
 ### Example 1: Add a SQL hosting server
 ```
-PS C:\>$Creds = Get-Credential
+PS C:\> $Creds = Get-Credential
 PS C:\> Add-MgmtSvcSqlHostingServer -AdminUri "https://Computer01:30004" -Token $Token -Name "SQLServer01.Contoso.com" -TotalSpaceMB 2048 -ServerGroupId "g5sho0" -User $Creds
 ```
 
@@ -260,7 +260,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs. The cmdlet is not run.
+Shows what would happen if the cmdlet runs. 
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter

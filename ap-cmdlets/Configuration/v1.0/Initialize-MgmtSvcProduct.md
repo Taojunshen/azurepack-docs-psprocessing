@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: B00FFA2F-02D0-421E-88B6-ECA89D99D13A
 online version: http://go.microsoft.com/fwlink/?LinkID=296545
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Initialize-MgmtSvcProduct.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Initialize-MgmtSvcProduct.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Initialize-MgmtSvcProduct.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Initialize-MgmtSvcProduct.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -37,7 +37,7 @@ Initialize-MgmtSvcProduct -Passphrase <String> [-EnableCeip <EnableCeip>] [-Conn
 ```
 
 ## DESCRIPTION
-The **Initialize-MgmtSvcProduct** cmdlet configures each feature of a management service installation on a single computer by calling **the Initialize-MgmtSvcFeature** cmdlet for each feature installed on the local computer.
+The **Initialize-MgmtSvcProduct** cmdlet configures each feature of a management service installation on a single computer by calling the **Initialize-MgmtSvcFeature** cmdlet for each feature installed on the local computer.
 
 You can run this cmdlet from any computer in the deployment.
 However, this cmdlet assumes that the database is on the local computer.
@@ -48,7 +48,7 @@ If you specify a connection string by using the *ConnectionString* parameter, th
 
 ### Example 1: Configure features for the management service
 ```
-PS C:\>Initialize-MgmtSvcProduct -Server "ContosoSQL01" -UserName "sa" -Password '^^^^^^^' -Passphrase '#######' -EnableCeip Yes -Verbose
+PS C:\> Initialize-MgmtSvcProduct -Server "ContosoSQL01" -UserName "sa" -Password '^^^^^^^' -Passphrase '#######' -EnableCeip Yes -Verbose
 ```
 
 This command initializes all features on the computer named ContosoSQL01.

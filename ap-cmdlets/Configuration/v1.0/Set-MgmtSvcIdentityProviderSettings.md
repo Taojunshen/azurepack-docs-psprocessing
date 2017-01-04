@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: 7487C7BC-6926-43D5-85CF-2267805AEC7A
 online version: http://go.microsoft.com/fwlink/?LinkID=306486
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcIdentityProviderSettings.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcIdentityProviderSettings.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcIdentityProviderSettings.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcIdentityProviderSettings.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -52,7 +52,7 @@ If you specify a connection string by using the *ConnectionString* parameter, th
 
 ### Example 1: Configure a tenant authentication site
 ```
-PS C:\>$ConnectionString = 'Data Source=rd-sdfre4;Initial Catalog=Microsoft.MgmtSvc.Config;User ID=SysAdmin;Password=PassWord'
+PS C:\> $ConnectionString = 'Data Source=rd-sdfre4;Initial Catalog=Microsoft.MgmtSvc.Config;User ID=SysAdmin;Password=PassWord'
 PS C:\> Set-MgmtSvcIdentityProviderSettings -Target Management -MetadataEndpoint "https://Server07.Contoso.com/FederationMetadata/2007-06/FederationMetadata.xml" -PortalConnectionString $ConnectionString -DisableCertificateValidation
 ```
 

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Admin.PowerShell.dll-Help.xml
 ms.assetid: 66EAB832-3C30-4D65-9108-C05C8C0159EA
 online version: http://go.microsoft.com/fwlink/?LinkID=316362
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 5:31 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Administration/v1.0/Update-MgmtSvcCoAdministrator.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Administration/v1.0/Update-MgmtSvcCoAdministrator.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Administration/v1.0/Update-MgmtSvcCoAdministrator.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/93767eba34ad89edb3696359a7595e41769e0346/AzurePack-cmdlets/Administration/v1.0/Update-MgmtSvcCoAdministrator.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -36,7 +36,7 @@ The **Update-MgmtSvcCoAdministrator** cmdlet updates the co-administrators for a
 
 ### Example 1: Update the co-administrators for a subscription
 ```
-PS C:\>Update-MgmtSvcCoAdministrator -SubscriptionId 'd5876082-8524-441e-b0ce-e2b582806df3' -CoAdministratorName 'coadmin@Contoso.com' -AdminUri "https://Computer01:30004" -Token $Token -DisableCertificateValidation
+PS C:\> Update-MgmtSvcCoAdministrator -SubscriptionId 'd5876082-8524-441e-b0ce-e2b582806df3' -CoAdministratorName 'coadmin@Contoso.com' -AdminUri "https://Computer01:30004" -Token $Token -DisableCertificateValidation
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 ### -DisableCertificateValidation
 Disables certificate validation for the Windows Azure Pack installation.
 
-If you specifiy this parameter, you can use self-signed certificates.
+If you specify this parameter, you can use self-signed certificates.
 
 ```yaml
 Type: SwitchParameter

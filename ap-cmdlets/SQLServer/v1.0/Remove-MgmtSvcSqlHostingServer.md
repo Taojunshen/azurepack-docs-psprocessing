@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.SqlServer.PowerShell.dll-Help.xml
 ms.assetid: 586AF962-70C8-429E-8F9C-188E687488FD
 online version: http://go.microsoft.com/fwlink/?LinkID=321814
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 6:20 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/SQLServer/v1.0/Remove-MgmtSvcSqlHostingServer.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/SQLServer/v1.0/Remove-MgmtSvcSqlHostingServer.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/SQLServer/v1.0/Remove-MgmtSvcSqlHostingServer.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/361232b1b8322225f587a5fe936b292ccd46a1f7/AzurePack-cmdlets/SQLServer/v1.0/Remove-MgmtSvcSqlHostingServer.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -36,7 +36,7 @@ The **Remove-MgmtSvcSqlHostingServer** cmdlet removes a SQL Server hosting serve
 
 ### Example 1: Remove a SQL hosting server
 ```
-PS C:\>Remove-MgmtSvcSqlHostingServer -AdminUri "https://Computer01:30004" -Token $Token -HostingServerId "u37k25"
+PS C:\> Remove-MgmtSvcSqlHostingServer -AdminUri "https://Computer01:30004" -Token $Token -HostingServerId "u37k25"
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.
@@ -125,7 +125,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs. The cmdlet is not run.
+Shows what would happen if the cmdlet runs. 
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -144,8 +145,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### HstingServerId
-You can pipe a **HstingServerId** object to this cmdlet.
+### HostingServerId
+You can pipe a **HostingServerId** object to this cmdlet.
 
 ## OUTPUTS
 

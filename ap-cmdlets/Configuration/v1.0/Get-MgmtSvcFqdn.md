@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: 313837D1-23EE-41D8-A9C6-F7A71CD9DD30
 online version: http://go.microsoft.com/fwlink/?LinkID=320945
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcFqdn.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcFqdn.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcFqdn.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcFqdn.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -49,7 +49,7 @@ As with other namespaces, you must run **Set-MgmtSvcFqdn** from a computer where
 
 ### Example 1: Get an FQDN for a Tenant Site
 ```
-PS C:\>Get-MgmtSvcFqdn -Namespace TenantSite -Password "PassWord01!" -Server "Computer01" -UserName "PattiFuller"
+PS C:\> Get-MgmtSvcFqdn -Namespace TenantSite -Password "PassWord01!" -Server "Computer01" -UserName "PattiFuller"
 ```
 
 This command gets the FQDN for a tenant site.

@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: FDB60AA7-8FB2-4F96-9120-E544A73735AC
 online version: http://go.microsoft.com/fwlink/?LinkID=321231
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 9:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/Get-WebSitesHostName.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/Get-WebSitesHostName.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/Get-WebSitesHostName.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9b04ebf7a96dfac95b0cdb4f6ad2c39512dc39eb/AzurePack-cmdlets/Websites/v1.0/Get-WebSitesHostName.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -20,7 +20,7 @@ ms.service: Azure-pack
 # Get-WebSitesHostName
 
 ## SYNOPSIS
-Gets hostnames for a web site.
+Gets host names for a web site.
 
 ## SYNTAX
 
@@ -30,21 +30,21 @@ Get-WebSitesHostName [[-SiteName] <String>] [-WorkerName <String>] [-OwnerName <
 ```
 
 ## DESCRIPTION
-The **Get-WebSitesHostName** cmdlet gets hostnames for a website.
-Hostnames are the names that users type into their web browsers in order to access a site; for example, "www.contoso.com" or "support.contoso.net".
-A single site can be assigned more than one hostname.
+The **Get-WebSitesHostName** cmdlet gets host names for a website.
+Host names are the names that users type into their web browsers in order to access a site; for example, "www.contoso.com" or "support.contoso.net".
+A single site can be assigned more than one host name.
 
-Used without any parameters, **Get-WebSitesHostName** returns information about all your website hostnames.
-However, you can also choose to return a subset of hostnames; for example, you can return all the hostnames for a specific site or all the hostnames associated with a specific owner.
+Used without any parameters, **Get-WebSitesHostName** returns information about all your website host names.
+However, you can also choose to return a subset of host names; for example, you can return all the host names for a specific site or all the host names associated with a specific owner.
 
 ## EXAMPLES
 
-### Example 1: Get t hostname for a site
+### Example 1: Get a host name for a site
 ```
 PS C:\> Get-WebSitesHostName -SiteName "Site01"
 ```
 
-This command gets the hostnames for the website named Site01.
+This command gets the host names for the website named Site01.
 
 ## PARAMETERS
 
@@ -75,7 +75,7 @@ For example:
 
 `-OwnerName "PattiF"`
 
-When this parameter is used **Get-WebSitesHostName** returns hostnames for the websites owned by the specified user.
+When this parameter is used **Get-WebSitesHostName** returns host names for the websites owned by the specified user.
 
 ```yaml
 Type: String
@@ -113,7 +113,7 @@ For example:
 
 `-WorkerName "ContosoWorker1"`
 
-When this parameter is used Get-WebSitesHostName returns all the hostnames associated with the specified worker.
+When this parameter is used **Get-WebSitesHostName** returns all the host names associated with the specified worker.
 
 ```yaml
 Type: String
@@ -141,5 +141,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-WebSitesHostName](xref:Websites/v1.0/New-WebSitesHostName.md)
 
 [Remove-WebSitesHostName](xref:Websites/v1.0/Remove-WebSitesHostName.md)
-
 

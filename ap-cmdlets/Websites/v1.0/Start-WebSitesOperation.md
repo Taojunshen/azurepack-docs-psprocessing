@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: DE1708F2-569C-4098-BCED-20B175DBD884
 online version: http://go.microsoft.com/fwlink/?LinkID=321275
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 6:14 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/Start-WebSitesOperation.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/Start-WebSitesOperation.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/Start-WebSitesOperation.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/34620cb46df1eb18f9e1c9a42639b53390ad35e3/AzurePack-cmdlets/Websites/v1.0/Start-WebSitesOperation.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -50,7 +50,7 @@ This command starts an upgrade operation on front-end servers.
 
 ### Example 2: Start an upgrade on a specific worker server
 ```
-PS C:\>Start-Operation -OperatorName "WFF" -OperationName "Upgrade" -Parameters @{"WebFarmName"="WorkerServers";ServerName="SERVER01"}
+PS C:\> Start-Operation -OperatorName "WFF" -OperationName "Upgrade" -Parameters @{"WebFarmName"="WorkerServers";ServerName="SERVER01"}
 ```
 
 This command starts an upgrade operation on the server named Server01.

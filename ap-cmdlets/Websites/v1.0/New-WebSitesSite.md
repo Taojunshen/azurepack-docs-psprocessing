@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: 8AE320AF-9283-4BD0-AACC-A8CD6FC3CE5C
 online version: http://go.microsoft.com/fwlink/?LinkID=321246
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 9:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/New-WebSitesSite.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/New-WebSitesSite.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/New-WebSitesSite.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9b04ebf7a96dfac95b0cdb4f6ad2c39512dc39eb/AzurePack-cmdlets/Websites/v1.0/New-WebSitesSite.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -49,7 +49,6 @@ Specifies the type of hosting environment that the web site runs in.
 Valid values are:
 
 - Shared. The web site runs in a shared/multi-tenant hosting environment. 
-
 - Dedicated. The web site runs in its own dedicated hosting environment.
 
 For example:
@@ -85,12 +84,12 @@ Accept wildcard characters: False
 ```
 
 ### -HostNames
-Specifies one or more hostnames associated with the site.
+Specifies one or more host names associated with the site.
 For example:
 
 `-HostName "contoso-internal.contoso.com"`
 
-To specify multiple hostnames, separate the names by using commas:
+To specify multiple host names, separate the names by using commas:
 
 `-HostName "contoso-internal.contoso.com", "employees.contos.com"`
 
@@ -162,7 +161,6 @@ Specifies the site mode of the policy.
 Valid values are:
 
 - Basic. Used with the Shared, Basic, and Standard plans. 
-
 - Limited. Used with the Free plan.
 
 For example:

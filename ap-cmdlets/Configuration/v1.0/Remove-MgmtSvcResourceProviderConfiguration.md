@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: 86E5D057-3350-404B-8543-37B0B421261F
 online version: http://go.microsoft.com/fwlink/?LinkID=296553
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Remove-MgmtSvcResourceProviderConfiguration.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Remove-MgmtSvcResourceProviderConfiguration.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Remove-MgmtSvcResourceProviderConfiguration.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Remove-MgmtSvcResourceProviderConfiguration.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -40,7 +40,7 @@ If this cmdlet is run on the computer on which the Admin API service is installe
 
 ### Example 1: Remove a resource provider
 ```
-PS C:\>Remove-MgmtSvcResourceProviderConfiguration -Name "RP01" -InstanceId "0602c550-0853-48fc-bfbb-dc1f84ac08a3"
+PS C:\> Remove-MgmtSvcResourceProviderConfiguration -Name "RP01" -InstanceId "0602c550-0853-48fc-bfbb-dc1f84ac08a3"
 ```
 
 This command removes the resource provider with the name RP01 and instance ID of 0602c550-0853-48fc-bfbb-dc1f84ac08a3.

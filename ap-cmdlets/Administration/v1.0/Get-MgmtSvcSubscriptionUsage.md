@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Admin.PowerShell.dll-Help.xml
 ms.assetid: 687A2603-FD16-4745-BD60-910307C2FED8
 online version: http://go.microsoft.com/fwlink/?LinkID=316339
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 5:31 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Administration/v1.0/Get-MgmtSvcSubscriptionUsage.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Administration/v1.0/Get-MgmtSvcSubscriptionUsage.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Administration/v1.0/Get-MgmtSvcSubscriptionUsage.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/93767eba34ad89edb3696359a7595e41769e0346/AzurePack-cmdlets/Administration/v1.0/Get-MgmtSvcSubscriptionUsage.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -36,7 +36,7 @@ The **Get-MgmtSvcSubscriptionUsage** cmdlet gets information about subscription 
 
 ### Example 1: Get subscription usage data for a specific subscription
 ```
-PS C:\>Get-MgmtSvcSubscriptionUsage -SubscriptionId 'd5876082-8524-441e-b0ce-e2b582806df3' -AdminUri "https://Computer01:30004" -Token $Token -DisableCertificateValidation
+PS C:\> Get-MgmtSvcSubscriptionUsage -SubscriptionId 'd5876082-8524-441e-b0ce-e2b582806df3' -AdminUri "https://Computer01:30004" -Token $Token -DisableCertificateValidation
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.

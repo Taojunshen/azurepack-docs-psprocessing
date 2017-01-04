@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: BD49E963-D651-48EB-85D7-D135CD6FD0F8
 online version: http://go.microsoft.com/fwlink/?LinkID=296556
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcDatabaseUser.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcDatabaseUser.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcDatabaseUser.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcDatabaseUser.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -45,7 +45,7 @@ If you specify a connection string by using the *ConnectionString* parameter, th
 
 ### Example 1: Change password for a user
 ```
-PS C:\>Set-MgmtSvcDatabaseUser -Schema "Usage" -User "MgmtSvc-UsageCollector" -UserPassword "PassWord!" -ConnectionString 'Data Source=mysqlserver;Initial Catalog=Microsoft.MgmtSvc.Usage;User ID=SysAdmin;Password=Book67%&'
+PS C:\> Set-MgmtSvcDatabaseUser -Schema "Usage" -User "MgmtSvc-UsageCollector" -UserPassword "PassWord!" -ConnectionString 'Data Source=mysqlserver;Initial Catalog=Microsoft.MgmtSvc.Usage;User ID=SysAdmin;Password=Book67%&'
 ```
 
 This command changes the password for a user named MgmtSvc-UsageCollector in the Usage schema.

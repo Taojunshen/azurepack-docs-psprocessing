@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: 97AF93CA-BE1D-4E48-95F7-80007DAF3D8E
 online version: http://go.microsoft.com/fwlink/?LinkID=296551
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Remove-MgmtSvcDatabaseUser.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Remove-MgmtSvcDatabaseUser.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Remove-MgmtSvcDatabaseUser.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Remove-MgmtSvcDatabaseUser.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -45,7 +45,7 @@ When you uninstall the product, you must uninstall the databases and remove the 
 
 ### Example 1: Remove a user account
 ```
-PS C:\>Remove-MgmtSvcDatabaseUser -Schema "Usage" -User "MgmtSvc-Usage" -Database "Microsoft.MgmtSvc.Usage" -Password "PassWord!" -Server "ContosoSQLServer" -UserName "SysAdmin"
+PS C:\> Remove-MgmtSvcDatabaseUser -Schema "Usage" -User "MgmtSvc-Usage" -Database "Microsoft.MgmtSvc.Usage" -Password "PassWord!" -Server "ContosoSQLServer" -UserName "SysAdmin"
 ```
 
 This command removes the user named MgmtSvc-Usage from the Usage schema in the database named Contoso.MgmtSvc.Usage.

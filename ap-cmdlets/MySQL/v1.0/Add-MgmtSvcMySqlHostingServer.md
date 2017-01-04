@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.MySql.PowerShell.dll-Help.xml
 ms.assetid: A4ABE179-F145-448C-9B98-46C1E2214236
 online version: http://go.microsoft.com/fwlink/?LinkID=321818
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 11:17 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/MySQL/v1.0/Add-MgmtSvcMySqlHostingServer.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/MySQL/v1.0/Add-MgmtSvcMySqlHostingServer.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/MySQL/v1.0/Add-MgmtSvcMySqlHostingServer.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/d67623ef81fb4ed9ee02ac9c9b01bb34ad6d33e2/AzurePack-cmdlets/MySQL/v1.0/Add-MgmtSvcMySqlHostingServer.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -38,13 +38,13 @@ Add-MgmtSvcMySqlHostingServer [-ServerGroupId] <String> [[-HostingServer] <MySql
 ```
 
 ## DESCRIPTION
-The Add-MgmtSvcMySqlHostingServer cmdlet adds a MySQL hosting server to Windows Azure Pack for Windows Server.
+The **Add-MgmtSvcMySqlHostingServer** cmdlet adds a MySQL hosting server to Windows Azure Pack for Windows Server.
 
 ## EXAMPLES
 
 ### Example 1: Add a MySQL hosting server
 ```
-PS C:\>$Creds = Get-Credential
+PS C:\> $Creds = Get-Credential
 PS C:\> Add-MgmtSvcMySqlHostingServer -AdminUri "https://Computer01:30004" -Token $Token -Name "MySQLServer01.Contoso.com" -TotalSpaceMB 2048 -ServerGroupId "foe629" -User $Creds
 ```
 
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ### -DisableCertificateValidation
 Disables certificate validation for the Windows Azure Pack installation.
 
-If you specifiy this parameter, you can use self-signed certificates.
+If you specify this parameter, you can use self-signed certificates.
 
 ```yaml
 Type: SwitchParameter
@@ -153,7 +153,7 @@ Accept wildcard characters: False
 
 ### -Token
 Specifies an identity token.
-To create a token, use the Get-MgmtSvcToken cmdlet.
+To create a token, use the **Get-MgmtSvcToken** cmdlet.
 
 ```yaml
 Type: String
@@ -183,8 +183,8 @@ Accept wildcard characters: False
 ```
 
 ### -User
-Specifies a user account and password as a PSCredential object.
-To create a PSCredential object, use the Get-Credential cmdlet.
+Specifies a user account and password as a **PSCredential** object.
+To create a **PSCredential** object, use the **Get-Credential** cmdlet.
 
 ```yaml
 Type: PSCredential

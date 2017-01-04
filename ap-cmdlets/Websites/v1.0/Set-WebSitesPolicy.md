@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: C26169DA-E6AC-4D21-96EB-AA567D49D533
 online version: http://go.microsoft.com/fwlink/?LinkID=321271
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 9:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/Set-WebSitesPolicy.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/Set-WebSitesPolicy.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/Set-WebSitesPolicy.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9b04ebf7a96dfac95b0cdb4f6ad2c39512dc39eb/AzurePack-cmdlets/Websites/v1.0/Set-WebSitesPolicy.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -91,7 +91,6 @@ Specifies the type of hosting environment that the web site runs in.
 Valid values are:
 
 - Shared. The web site runs in a shared/multi-tenant hosting environment. 
-
 - Dedicated. The web site runs in its own dedicated hosting environment.
 
 For example:
@@ -145,7 +144,7 @@ Accept wildcard characters: False
 Specifies the CPU limit percentage for sites under this policy.
 This parameter is used with the *CpuLimitPeriod* parameter to prevent a single worker process from using a large amount of CPU resources over an extended period of time.
 
-For example, suppose you specify a value of 80 for the CpuLimitPercentage property and a value of 3 minutes for the CpuLimitPeriod property.
+For example, suppose you specify a value of 80 for the **CpuLimitPercentage** property and a value of 3 minutes for the **CpuLimitPeriod** property.
 If a worker process consumes 80% or more of CPU resources over a period of 3 minutes, the worker process will be "throttled" in order to reduce its CPU usage.
 
 ```yaml
@@ -224,13 +223,13 @@ Accept wildcard characters: False
 Specifies the number of times a worker process can fail before it is suspended.
 Fail protection works by specifying values for three properties:
 
--- FailProtectionLimit (for example, 5 failures) 
+- FailProtectionLimit (for example, 5 failures) 
 - FailProtectionPeriod (for example 2 minutes) 
 - FailProtectionPenaltyPeriod (for example, 10 minutes)
 
-The system then monitors a process for 2 minutes (the time specified by the FailProtectionPeriod property).
-Should 5 failures (the number specified by the FailProtectionLimit property) occur during that time span, the process will be shut down.
-The system then waits 10 minutes (the time specified by FailProtectionPenaltyPeriod property) before restarting the process.
+The system then monitors a process for 2 minutes (the time specified by the **FailProtectionPeriod** property).
+Should 5 failures (the number specified by the **FailProtectionLimit** property) occur during that time span, the process will be shut down.
+The system then waits 10 minutes (the time specified by **FailProtectionPenaltyPeriod** property) before restarting the process.
 
 ```yaml
 Type: Int32
@@ -355,7 +354,6 @@ Specifies the action taken on idle worker processes.
 Valid values are:
 
 - 0 or Shutdown. The process is shut down. 
-
 - 1 or Suspend. Thus process is suspended. This value can only be used with Windows Server 2012 R2.
 
 For example:
@@ -412,9 +410,7 @@ Specifies the supported IP address types.
 Valid values are:
 
 - Ipv4
-
 - Ipv6
-
 - Ipv4AndIpv6
 
 For example:
@@ -532,7 +528,6 @@ Specifies the site mode of the policy.
 Valid values are:
 
 - Basic. Used with the Shared, Basic, and Standard plans. 
-
 - Limited. Used with the Free plan.
 
 For example:

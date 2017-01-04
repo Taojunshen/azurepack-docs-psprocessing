@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: EF1E4495-4DF5-43E0-83DF-B18B47B908E0
 online version: http://go.microsoft.com/fwlink/?LinkID=320107
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcAdminUser.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcAdminUser.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcAdminUser.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcAdminUser.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -46,9 +46,9 @@ If you specify a connection string by using the *ConnectionString* parameter, th
 
 ## EXAMPLES
 
-### 1: Get a principal by using a conection string
+### Example 1: Get a principal by using a connection string
 ```
-PS C:\>Get-MgmtSvcAdminUser -Principal "PattiFuller@Contoso.com" -ConnectionString 'Server=.\sqlexpress;Initial Catalog=Contoso.MgmtSvc.Store;User Id=sa;Password=PassWord;'
+PS C:\> Get-MgmtSvcAdminUser -Principal "PattiFuller@Contoso.com" -ConnectionString 'Server=.\sqlexpress;Initial Catalog=Contoso.MgmtSvc.Store;User Id=sa;Password=PassWord;'
 ```
 
 This command gets the principal named Patti Fuller by using a connection string to connect to the database.

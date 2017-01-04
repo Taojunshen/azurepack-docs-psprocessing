@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.MySql.PowerShell.dll-Help.xml
 ms.assetid: 6F89F01C-9517-4086-A990-D87D5D198B82
 online version: http://go.microsoft.com/fwlink/?LinkID=321825
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 6:34 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/MySQL/v1.0/Remove-MgmtSvcMySqlHostingServer.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/MySQL/v1.0/Remove-MgmtSvcMySqlHostingServer.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/MySQL/v1.0/Remove-MgmtSvcMySqlHostingServer.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9ea7de3be93c45294ed2319f140bd6d622b027db/AzurePack-cmdlets/MySQL/v1.0/Remove-MgmtSvcMySqlHostingServer.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -36,7 +36,7 @@ The **Remove-MgmtSvcMySqlHostingServer** cmdlet removes a MySQL hosting server f
 
 ### Example 1: Remove a MySql hosting server
 ```
-PS C:\>Remove-MgmtSvcMySqlHostingServer -AdminUri "https://Computer01:30004" -Token $Token -HostingServerId "v48l25"
+PS C:\> Remove-MgmtSvcMySqlHostingServer -AdminUri "https://Computer01:30004" -Token $Token -HostingServerId "v48l25"
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ### -DisableCertificateValidation
 Disables certificate validation for the Windows Azure Pack installation.
 
-If you specifiy this parameter, you can use self-signed certificates.
+If you specify this parameter, you can use self-signed certificates.
 
 ```yaml
 Type: SwitchParameter

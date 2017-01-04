@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: 857FADA8-4DE9-4B1F-BCE5-1045E100DEE9
 online version: http://go.microsoft.com/fwlink/?LinkID=321234
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 9:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/Get-WebSitesServer.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Websites/v1.0/Get-WebSitesServer.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/Get-WebSitesServer.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9b04ebf7a96dfac95b0cdb4f6ad2c39512dc39eb/AzurePack-cmdlets/Websites/v1.0/Get-WebSitesServer.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -67,7 +67,7 @@ This command returns information for all servers assigned the WebWorker role.
 ## PARAMETERS
 
 ### -Name
-Specifies the hostname of the server whose configuration information is being retrieved.
+Specifies the host name of the server whose configuration information is being retrieved.
 For example:
 
 `-Name "ContosoServer"`
@@ -104,15 +104,10 @@ Specifies the type of server for which information is being returned.
 Valid values are:
 
 - Controller. Manages and provisions other website roles. 
-
 - ManagementServer. Manages the website infrastructure. 
-
 - LoadBalancer. Distributes and manages web traffic. 
-
 - WebWorker. Hosts websites. 
-
 - Publisher. Publishes content to file servers. 
-
 - FileServer. Stores website content.
 
 For example:

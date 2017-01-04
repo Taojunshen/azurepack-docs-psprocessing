@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.SqlServer.PowerShell.dll-Help.xml
 ms.assetid: BE94455C-1DCA-48B6-BE37-88B4E43C4ADB
 online version: http://go.microsoft.com/fwlink/?LinkID=321808
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 11:17 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/SQLServer/v1.0/Add-MgmtSvcSqlServerGroup.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/SQLServer/v1.0/Add-MgmtSvcSqlServerGroup.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/SQLServer/v1.0/Add-MgmtSvcSqlServerGroup.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/d67623ef81fb4ed9ee02ac9c9b01bb34ad6d33e2/AzurePack-cmdlets/SQLServer/v1.0/Add-MgmtSvcSqlServerGroup.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -37,13 +37,13 @@ Add-MgmtSvcSqlServerGroup [[-ServerGroup] <SqlServerGroup>] [-AdminUri] <Uri> [-
 ```
 
 ## DESCRIPTION
-The **Add-MgmtSvcSqlServerGroup** adds a SQL Server group to Windows Azure Pack for Windows Server.
+The **Add-MgmtSvcSqlServerGroup** cmdlet adds a SQL Server group to Windows Azure Pack for Windows Server.
 
 ## EXAMPLES
 
 ### Example 1: Add a SQL Server group
 ```
-PS C:\>Add-MgmtSvcSqlServerGroup -AdminUri "https://Computer01:30004" -Token $Token -GroupName "SQL Group 01"
+PS C:\> Add-MgmtSvcSqlServerGroup -AdminUri "https://Computer01:30004" -Token $Token -GroupName "SQL Group 01"
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.

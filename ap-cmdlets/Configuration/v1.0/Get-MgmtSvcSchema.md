@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: FE732E79-2E2C-411D-8B3F-5A5D50DF6903
 online version: http://go.microsoft.com/fwlink/?LinkID=296541
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcSchema.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcSchema.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcSchema.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcSchema.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -37,7 +37,7 @@ A schema represents the database objects that a resource provider uses or that a
 
 ### Example 1: Get all registered schemas
 ```
-PS C:\>Get-MgmtSvcSchema
+PS C:\> Get-MgmtSvcSchema
 
 MySQL
 SQLServer
@@ -56,7 +56,7 @@ This command gets all of the management service schemas that are registered on t
 
 ### -Schema
 Specifies an array of component schemas.
-You can use wildcards.
+You can use wildcard characters.
 
 ```yaml
 Type: String[]

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: 8BB9874F-DDDE-4ED9-B4B1-B8872C1C3B82
 online version: http://go.microsoft.com/fwlink/?LinkID=296555
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcSetting.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/master/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcSetting.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcSetting.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcSetting.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -40,7 +40,7 @@ You must run this cmdlet on the computer that hosts the management services.
 
 ### Example 1: Enable server certificate validation
 ```
-PS C:\>Set-MgmtSvcSetting -Namespace "AdminSite" -Name DisableCertificateValidation" -Value False
+PS C:\> Set-MgmtSvcSetting -Namespace "AdminSite" -Name DisableCertificateValidation" -Value False
 ```
 
 This command enables server certificate validation for the AdminSite namespace.
