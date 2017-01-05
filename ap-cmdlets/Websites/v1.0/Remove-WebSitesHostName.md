@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: ACFF0158-22DB-4D3C-8631-A4FFB822439E
 online version: http://go.microsoft.com/fwlink/?LinkID=321254
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 9:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/Remove-WebSitesHostName.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/Remove-WebSitesHostName.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/Remove-WebSitesHostName.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9b04ebf7a96dfac95b0cdb4f6ad2c39512dc39eb/AzurePack-cmdlets/Websites/v1.0/Remove-WebSitesHostName.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -20,7 +20,7 @@ ms.service: Azure-pack
 # Remove-WebSitesHostName
 
 ## SYNOPSIS
-Removes a hostname from a website.
+Removes a host name from a website.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Remove-WebSitesHostName [-SiteName] <String> [[-Name] <String>] [-ConnectionStri
 ```
 
 ## DESCRIPTION
-The **Remove-WebSitesHostName** cmdlet removes a hostname from a website.
+The **Remove-WebSitesHostName** cmdlet removes a host name from a website.
 
 ## EXAMPLES
 
@@ -39,7 +39,7 @@ The **Remove-WebSitesHostName** cmdlet removes a hostname from a website.
 PS C:\> Remove-WebSitesHostName -SiteName "Site01" -Name "support.contoso.com"
 ```
 
-This command removes the hostname support.contoso.com from Site01.
+This command removes the host name support.contoso.com from Site01.
 
 ## PARAMETERS
 
@@ -80,7 +80,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the hostname being removed.
+Specifies the host name being removed.
 For example:
 
 `-Name "contoso-internal.contoso.com"`
@@ -98,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteName
-Specifies the name of the site associated with the hostname being deleted.
+Specifies the name of the site associated with the host name being deleted.
 For example:
 
 `-SiteName "ContosoSite"`

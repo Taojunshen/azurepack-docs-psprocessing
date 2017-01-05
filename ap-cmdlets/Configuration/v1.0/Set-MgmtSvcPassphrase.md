@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: 8BED1F5B-E269-476C-A9DA-9874C88977D0
 online version: http://go.microsoft.com/fwlink/?LinkID=320111
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcPassphrase.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcPassphrase.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcPassphrase.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcPassphrase.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -51,7 +51,7 @@ If you specify a connection string by using the *ConnectionString* parameter, th
 
 ### Example 1: Set a passphrase
 ```
-PS C:\>Set-MgmtSvcPassphrase -Server "Contoso01" -UserName "sa" -Password '********' -Passphrase '*********'
+PS C:\> Set-MgmtSvcPassphrase -Server "Contoso01" -UserName "sa" -Password '********' -Passphrase '*********'
 ```
 
 This command sets the passphrase for the configuration store on the computer named Contoso01.

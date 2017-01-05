@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.SqlServer.PowerShell.dll-Help.xml
 ms.assetid: F2395B4B-1CCF-4E2E-9FCC-552B093EACD7
 online version: http://go.microsoft.com/fwlink/?LinkID=321817
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 11:17 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/SQLServer/v1.0/Test-MgmtSvcSqlHostingServer.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/SQLServer/v1.0/Test-MgmtSvcSqlHostingServer.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/SQLServer/v1.0/Test-MgmtSvcSqlHostingServer.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/d67623ef81fb4ed9ee02ac9c9b01bb34ad6d33e2/AzurePack-cmdlets/SQLServer/v1.0/Test-MgmtSvcSqlHostingServer.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -46,13 +46,13 @@ This cmdlet verifies that no server with the same name is already registered.
 
 ### Example 1: Verify a SQL Server hosting server
 ```
-PS C:\>$Creds = Get-Credential
+PS C:\> $Creds = Get-Credential
 PS C:\> Test-MgmtSvcSqlHostingServer -AdminUri "https://Computer01:30004" -Token $Token -Name "SQLServer01.Contoso.com" -TotalSpaceMB 2048 -User $Creds -ServerGroupId "g5sho0"
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.
 
-The first command prompts the user for credentials and stores the provided user name and password in the $**Credential** variable.
+The first command prompts the user for credentials and stores the provided user name and password in the $Credential variable.
 
 The second command tests the SQL Server hosting server named SQLServer01.Contoso.com, using the credentials provided in the first command.
 

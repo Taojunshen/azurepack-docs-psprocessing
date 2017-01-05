@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: B32BC499-0C0B-4C73-95CE-4F0CAFFAC130
 online version: http://go.microsoft.com/fwlink/?LinkID=306488
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcRelyingPartySettings.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcRelyingPartySettings.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcRelyingPartySettings.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcRelyingPartySettings.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -20,7 +20,7 @@ ms.service: Azure-pack
 # Set-MgmtSvcRelyingPartySettings
 
 ## SYNOPSIS
-Configures  the katal_adminportal_1 and management portal for tenants to use AD FS.
+Configures  the management portal for administrators and management portal for tenants to use AD FS.
 
 ## SYNTAX
 
@@ -39,7 +39,7 @@ Set-MgmtSvcRelyingPartySettings [-Target] <String[]> [-MetadataEndpoint <Uri>] [
 ```
 
 ## DESCRIPTION
-The **Set-MgmtSvcRelyingPartySettings** cmdlet configures the katal_adminportal_1 and katal_tenantportal_1 to use Active Directory Federation Services (AD FS).
+The **Set-MgmtSvcRelyingPartySettings** cmdlet configures the management portal for administrators and management portal for tenants to use Active Directory Federation Services (AD FS).
 Specify one or more namespaces and an endpoint for metadata.
 
 You can run this cmdlet from any computer in the deployment.
@@ -51,7 +51,7 @@ If you specify a connection string by using the *ConnectionString* parameter, th
 
 ### Example 1: Configure a tenant portal
 ```
-PS C:\>$ConnectionString = 'Data Source=rd-sdfre4;Initial Catalog=Microsoft.MgmtSvc.Config;User ID=SysAdmin;Password=Zoom2345'
+PS C:\> $ConnectionString = 'Data Source=rd-sdfre4;Initial Catalog=Microsoft.MgmtSvc.Config;User ID=SysAdmin;Password=Zoom2345'
 PS C:\> Set-MgmtSvcRelyingPartySettings -Target Tenant -MetadataEndpoint "https://Server07.Contoso.com/FederationMetadata/2007-06/FederationMetadata.xml" -ConnectionString $ConnectionString  -DisableCertificateValidation
 ```
 

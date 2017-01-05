@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: 21112410-3A0B-452B-94B4-ACBCA9172611
 online version: http://go.microsoft.com/fwlink/?LinkID=321245
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 6:14 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/New-WebSitesServer.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/New-WebSitesServer.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/New-WebSitesServer.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/34620cb46df1eb18f9e1c9a42639b53390ad35e3/AzurePack-cmdlets/Websites/v1.0/New-WebSitesServer.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -36,7 +36,7 @@ The **New-WebSitesServer** cmdlet creates a website server.
 
 ### Example 1: Create a server
 ```
-PS C:\>New-WebSitesServer -Name "WSERVER01" -ServerType "WebWorker"
+PS C:\> New-WebSitesServer -Name "WSERVER01" -ServerType "WebWorker"
 ```
 
 This command creates a new WebWorker server named WSERVER01.
@@ -111,13 +111,9 @@ Specifies the type of the server being created.
 Valid values are:
 
 - ManagementServer. Manages the website infrastructure. 
-
 - LoadBalancer. Distributes and manages web traffic. 
-
 - WebWorker. Hosts websites. 
-
 - Publisher. Publishes content to file servers. 
-
 - FileServer. Stores website content.
 
 For example:

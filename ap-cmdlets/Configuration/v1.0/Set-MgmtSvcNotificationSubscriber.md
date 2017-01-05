@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: 4AC018F4-4483-4BEB-A898-D53A6AD5C204
 online version: http://go.microsoft.com/fwlink/?LinkID=306487
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcNotificationSubscriber.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcNotificationSubscriber.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcNotificationSubscriber.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcNotificationSubscriber.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -75,7 +75,7 @@ If the usage service is installed on another computer, you must use the *Encrypt
 
 ### Example 1: Add a notification subscriber
 ```
-PS C:\>Set-MgmtSvcNotificationSubscriber -AuthenticationMode None -Enabled $False -Endpoint https://localhost/ -Name "Billing" -SubscriberType BillingService
+PS C:\> Set-MgmtSvcNotificationSubscriber -AuthenticationMode None -Enabled $False -Endpoint https://localhost/ -Name "Billing" -SubscriberType BillingService
 ```
 
 This command adds a notification subscriber to the database.
@@ -83,7 +83,7 @@ The command specifies a name and subscriber type for the notification subscriber
 
 ### Example 2: Modify a notification subscriber
 ```
-PS C:\>$Subscriber = Get-MgmtSvcNotificationSubscriber -Name "Billing"PS C:\> $Subscriber.AuthenticationMode = 'Basic'PS C:\> $Subscriber.AuthenticationUsername = 'MyUser'PS C:\> $Subscriber.AuthenticationPassword = 'PassWord'PS C:\> Set-MgmtSvcNotificationSubscriber -NotificationSubscriber $Subscriber -Force
+PS C:\> $Subscriber = Get-MgmtSvcNotificationSubscriber -Name "Billing"PS C:\> $Subscriber.AuthenticationMode = 'Basic'PS C:\> $Subscriber.AuthenticationUsername = 'MyUser'PS C:\> $Subscriber.AuthenticationPassword = 'PassWord'PS C:\> Set-MgmtSvcNotificationSubscriber -NotificationSubscriber $Subscriber -Force
 ```
 
 The first command gets the notification subscriber named Billing and stores the object in the $Subscriber variable.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Admin.PowerShell.dll-Help.xml
 ms.assetid: 1C494847-93FC-4887-BB6B-7D5F8E6A834E
 online version: http://go.microsoft.com/fwlink/?LinkID=316330
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 5:31 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Administration/v1.0/Disable-MgmtSvcSubscription.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Administration/v1.0/Disable-MgmtSvcSubscription.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Administration/v1.0/Disable-MgmtSvcSubscription.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/93767eba34ad89edb3696359a7595e41769e0346/AzurePack-cmdlets/Administration/v1.0/Disable-MgmtSvcSubscription.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -37,7 +37,7 @@ To enable a subscription, use the **Enable-MgmtSvcSubscription** cmdlet.
 
 ### Example 1: Disable a subscription
 ```
-PS C:\>Disable-MgmtSvcSubscription -SubscriptionId 'd5876082-8524-441e-b0ce-e2b582806df3' -AdminUri "https://Computer01:30004" -Token $Token -DisableCertificateValidation
+PS C:\> Disable-MgmtSvcSubscription -SubscriptionId 'd5876082-8524-441e-b0ce-e2b582806df3' -AdminUri "https://Computer01:30004" -Token $Token -DisableCertificateValidation
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.
@@ -80,7 +80,7 @@ Accept wildcard characters: False
 ### -DisableCertificateValidation
 Disables certificate validation for the Windows Azure Pack installation.
 
-If you specifiy this parameter, you can use self-signed certificates.
+If you specify this parameter, you can use self-signed certificates.
 
 ```yaml
 Type: SwitchParameter

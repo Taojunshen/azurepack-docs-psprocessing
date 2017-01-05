@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: A737AEF7-127B-41EB-A2CD-F82018F85C12
 online version: http://go.microsoft.com/fwlink/?LinkID=320112
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Test-MgmtSvcProtectedConfiguration.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Test-MgmtSvcProtectedConfiguration.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Test-MgmtSvcProtectedConfiguration.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Test-MgmtSvcProtectedConfiguration.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -43,7 +43,7 @@ However, you should then return the configuration to a protected state.
 
 ### Example 1: Test a protectected configuration
 ```
-PS C:\>Test-MgmtSvcProtectedConfiguration -Namespace "AdminSite"
+PS C:\> Test-MgmtSvcProtectedConfiguration -Namespace "AdminSite"
 ```
 
 This command tests the protected configuration for the namespace AdminSite.

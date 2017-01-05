@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.SqlServer.PowerShell.dll-Help.xml
 ms.assetid: F6BA3574-BF29-412A-BF15-48DA8EB92EE9
 online version: http://go.microsoft.com/fwlink/?LinkID=321811
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 10:42 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/SQLServer/v1.0/Get-MgmtSvcSqlHostingServerByGroup.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/SQLServer/v1.0/Get-MgmtSvcSqlHostingServerByGroup.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/SQLServer/v1.0/Get-MgmtSvcSqlHostingServerByGroup.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/eb7bff1251dc2a22eafa120c35cbbc43529d3762/AzurePack-cmdlets/SQLServer/v1.0/Get-MgmtSvcSqlHostingServerByGroup.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -30,7 +30,7 @@ Get-MgmtSvcSqlHostingServerByGroup [-ServerGroupId] <String> [[-Name] <String[]>
 ```
 
 ## DESCRIPTION
-The **Get-MgmtSvcSqlHostingServerByGroup** gets SQL Server hosting servers by SQL Server group.
+The **Get-MgmtSvcSqlHostingServerByGroup** cmdlet gets SQL Server hosting servers by SQL Server group.
 By default, all SQL Server hosting servers for a group are returned.
 To get a specific hosting server, use the *Name* parameter.
 
@@ -38,7 +38,7 @@ To get a specific hosting server, use the *Name* parameter.
 
 ### Example 1: Get all SQL hosting servers for a group
 ```
-PS C:\>Get-MgmtSvcSqlHostingServerByGroup -AdminUri "https://Computer01:30004" -Token $Token -ServerGroupId "g5sho0"
+PS C:\> Get-MgmtSvcSqlHostingServerByGroup -AdminUri "https://Computer01:30004" -Token $Token -ServerGroupId "g5sho0"
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.

@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: 30CDDD58-8F87-4EBB-9BD2-1F59A50B85BB
 online version: http://go.microsoft.com/fwlink/?LinkID=306481
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Add-MgmtSvcAdminUser.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Add-MgmtSvcAdminUser.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Add-MgmtSvcAdminUser.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Add-MgmtSvcAdminUser.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -39,15 +39,15 @@ Add-MgmtSvcAdminUser [-Principal] <String> [-EncryptionKey <String>] [-Encryptio
 
 ## DESCRIPTION
 The **Add-MgmtSvcAdminUser** cmdlet adds an administrative user or group to the database.
-The cmdlet grants the principal permissions to access the katal_adminportal_1 and Windows Azure Pack administrator API.
+The cmdlet grants the principal permissions to access the management portal for administrators and Windows Azure Pack administrator API.
 
-If this cmdlet is run on the computer on which the Admin API service is installed and the Web.config file contains values for EncrptionKey and EncryptionAlgorithm, then those values are used.
+If this cmdlet is run on the computer on which the Admin API service is installed and the Web.config file contains values for *EncrptionKey* and *EncryptionAlgorithm*, then those values are used.
 
 ## EXAMPLES
 
 ### Example 1: Add a principal by using a connection string
 ```
-PS C:\>Add-MgmtSvcAdminUser -Principal "PattiFuller@Contoso.com" -ConnectionString 'Server=.\sqlexpress;Initial Catalog=Microsoft.MgmtSvc.Store;User Id=sa;Password=PassWord;'
+PS C:\> Add-MgmtSvcAdminUser -Principal "PattiFuller@Contoso.com" -ConnectionString 'Server=.\sqlexpress;Initial Catalog=Microsoft.MgmtSvc.Store;User Id=sa;Password=PassWord;'
 ```
 
 This command adds the specified user as an administrative principal to the database.

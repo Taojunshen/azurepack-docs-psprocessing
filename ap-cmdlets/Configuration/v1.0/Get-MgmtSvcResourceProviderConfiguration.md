@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: B43B758C-925D-45BE-8149-14106FA97EBE
 online version: http://go.microsoft.com/fwlink/?LinkID=296543
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcResourceProviderConfiguration.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcResourceProviderConfiguration.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcResourceProviderConfiguration.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcResourceProviderConfiguration.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -39,14 +39,14 @@ To get a specific resource provider configuration, specify one or more values fo
 
 ### Example 1: Get all resource provider configurations
 ```
-PS C:\>Get-MgmtSvcResourceProviderConfiguration -As XmlString
+PS C:\> Get-MgmtSvcResourceProviderConfiguration -As XmlString
 ```
 
 This command gets all resource provider configurations and returns their information in XML format.
 
 ### Example 2: Get specific resource provider configurations by their name
 ```
-PS C:\>Get-MgmtSvcResourceProviderConfiguration -Name "SqlServers","marketplace"
+PS C:\> Get-MgmtSvcResourceProviderConfiguration -Name "SqlServers","marketplace"
 ```
 
 This command gets only the resource provider configurations named SqlServers and marketplace, and returns information about the configurations to the user.

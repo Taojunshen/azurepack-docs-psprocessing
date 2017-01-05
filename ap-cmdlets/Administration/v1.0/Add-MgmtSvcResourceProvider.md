@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Admin.PowerShell.dll-Help.xml
 ms.assetid: 70015B7E-6F2C-4DFA-B3C7-B7099EEE7372
 online version: http://go.microsoft.com/fwlink/?LinkID=316324
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 6:48 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Administration/v1.0/Add-MgmtSvcResourceProvider.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Administration/v1.0/Add-MgmtSvcResourceProvider.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Administration/v1.0/Add-MgmtSvcResourceProvider.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/97a55db972036fa7bf413cbe2fbdbe06fef1d3a1/AzurePack-cmdlets/Administration/v1.0/Add-MgmtSvcResourceProvider.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -57,7 +57,7 @@ You can run this cmdlet from any computer in the deployment.
 
 ### Example 1: Add a resource provider
 ```
-PS C:\>$UserName = "PattiFuller"
+PS C:\> $UserName = "PattiFuller"
 PS C:\> $Password = "passw0rd"
 PS C:\> $AdminUser = Get-Credential
 PS C:\> Add-MgmtSvcResourceProvider -AdminURI "https://Computer01:30004" -Token $Token -Name "ResourceProvider02" -DisplayName "Resource Provider 02" -AllowMultipleInstances $True -AdminForwardingAddress "https://$env:ComputerName`:30010/" -AdminAuthenticationMode "Basic" -AdminAuthenticationUser $AdminUser -TenantForwardingAddress "https://$Env:ComputerName`:30010/subscriptions" -TenantAuthenticationMode "Basic" -TenantAuthenticationUserName $UserName -TenantAuthenticationPassword $Password -UsageForwardingAddress "https://$Env:ComputerName`:30010/" -UsageAuthenticationMode "Basic" -UsageAuthenticationUserName $UserName -UsageAuthenticationPassword -Password -HealthCheckForwardingAddress "https://$Env:ComputerName`:30010/" -HealthCheckAuthenticationMode "Basic" -HealthCheckAuthenticationUserName $UserName -HealthCheckAuthenticationPassword $Password -NotificationForwardingAddress "https://$Env:ComputerName`:30010/" -NotificationAuthenticationMode "Basic" -NotificationAuthenticationUsername $UserName -NotificationAuthenticationPassword $Password -InstanceDisplayName "Resource Provider 02.1" -Type "Standard"
@@ -69,7 +69,7 @@ The first command stores a user name in the $UserName variable.
 
 The second command stores a password in the $Password variable.
 
-The third command prompts the user for credentials and stores the resulting PSCredential object in the $AdminUser variable.
+The third command prompts the user for credentials and stores the resulting **PSCredential** object in the $AdminUser variable.
 
 The last command adds a resource provider.
 
@@ -97,8 +97,8 @@ Accept wildcard characters: False
 ```
 
 ### -AdminAuthenticationUser
-Specifies, as a PSCredential object, an administrative user name and password to connect to a resource provider.
-To get a PSCredential object, use the **Get-Credential** cmdlet.
+Specifies, as a **PSCredential** object, an administrative user name and password to connect to a resource provider.
+To get a **PSCredential** object, use the **Get-Credential** cmdlet.
 
 ```yaml
 Type: PSCredential
@@ -206,7 +206,7 @@ Accept wildcard characters: False
 ### -DisableCertificateValidation
 Disables certificate validation for the Windows Azure Pack installation.
 
-If you specifiy this parameter, you can use self-signed certificates.
+If you specify this parameter, you can use self-signed certificates.
 
 ```yaml
 Type: SwitchParameter

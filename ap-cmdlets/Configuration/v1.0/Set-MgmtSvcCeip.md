@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: 5331A2D3-7FA5-4A83-A444-45872998A5C7
 online version: http://go.microsoft.com/fwlink/?LinkID=320110
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcCeip.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcCeip.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcCeip.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcCeip.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -37,7 +37,7 @@ The **Set-MgmtSvcCeip** cmdlet updates the Customer Experience Improvement Progr
 
 ### Example 1: Enable participation in CEIP
 ```
-PS C:\>Set-MgmtSvcCeip -EnableCeip Yes
+PS C:\> Set-MgmtSvcCeip -EnableCeip Yes
 ```
 
 This command enables participation in CEIP.

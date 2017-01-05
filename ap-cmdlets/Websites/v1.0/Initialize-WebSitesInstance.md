@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: B35B2780-FB2A-4644-ACFE-5AEA3BA1A792
 online version: http://go.microsoft.com/fwlink/?LinkID=321241
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 9:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/Initialize-WebSitesInstance.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/Initialize-WebSitesInstance.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/Initialize-WebSitesInstance.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9b04ebf7a96dfac95b0cdb4f6ad2c39512dc39eb/AzurePack-cmdlets/Websites/v1.0/Initialize-WebSitesInstance.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -74,7 +74,7 @@ For example, this syntax contains two properties (hosting and fileServerType) :
 
 `@{hosting = "Server=CN-SERVER;Initial Catalog=Hosting;User ID=sa;Password=Password01!"; fileServerType = "WindowsSingle" }`
 
-See https://technet.microsoft.com/en-us/library/dn554319.aspxhttps://technet.microsoft.com/en-us/library/dn554319.aspx for more examples.
+See [Web Site Clouds troubleshooting](https://technet.microsoft.com/en-us/library/dn554319.aspx) for more examples.
 
 ```yaml
 Type: Hashtable

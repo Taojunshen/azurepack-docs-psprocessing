@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Admin.PowerShell.dll-Help.xml
 ms.assetid: AFC2DA88-8EE1-4AA7-939D-E19C1856C07C
 online version: http://go.microsoft.com/fwlink/?LinkID=316337
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 5:31 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Administration/v1.0/Get-MgmtSvcResourceProvider.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Administration/v1.0/Get-MgmtSvcResourceProvider.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Administration/v1.0/Get-MgmtSvcResourceProvider.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/93767eba34ad89edb3696359a7595e41769e0346/AzurePack-cmdlets/Administration/v1.0/Get-MgmtSvcResourceProvider.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -40,14 +40,14 @@ You can run this cmdlet from any machine in the deployment.
 
 ### Example 1: Get all resource providers
 ```
-PS C:\>Get-MgmtSvcResourceProvider -AdminUri "https://Computer01:30004" -Token $Token
+PS C:\> Get-MgmtSvcResourceProvider -AdminUri "https://Computer01:30004" -Token $Token
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.
 
 ### Example 2: Get a specific resource provider by its name
 ```
-PS C:\>Get-MgmtSvcResourceProvider -AdminUri https://Computer01:30004 -Token $Token -Name "ResourceProvider02"
+PS C:\> Get-MgmtSvcResourceProvider -AdminUri https://Computer01:30004 -Token $Token -Name "ResourceProvider02"
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ### -DisableCertificateValidation
 Disables certificate validation for the Windows Azure Pack installation.
 
-If you specifiy this parameter, you can use self-signed certificates.
+If you specify this parameter, you can use self-signed certificates.
 
 ```yaml
 Type: SwitchParameter
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 
 ### -Name
 Specifies an array of names of resource providers.
-You can use wildcards.
+You can use wildcard characters.
 
 ```yaml
 Type: String[]

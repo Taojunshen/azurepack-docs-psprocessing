@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Admin.PowerShell.dll-Help.xml
 ms.assetid: 788D923D-B540-4D78-A2A1-9ED10FF3F914
 online version: http://go.microsoft.com/fwlink/?LinkID=316327
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 5:31 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Administration/v1.0/Add-MgmtSvcQuotaSetting.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Administration/v1.0/Add-MgmtSvcQuotaSetting.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Administration/v1.0/Add-MgmtSvcQuotaSetting.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/93767eba34ad89edb3696359a7595e41769e0346/AzurePack-cmdlets/Administration/v1.0/Add-MgmtSvcQuotaSetting.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -41,7 +41,7 @@ The **Add-MgmtSvcQuotaSetting** cmdlet adds a setting to a quota object.
 
 ### Example 1: Add a quota setting
 ```
-PS C:\>$sqlserverRP = Get-MgmtSvcResourceProvider -AdminUri "https://Computer01:30004" -Token $Token -DisableCertificateValidation -Name sqlservers
+PS C:\> $sqlserverRP = Get-MgmtSvcResourceProvider -AdminUri "https://Computer01:30004" -Token $Token -DisableCertificateValidation -Name sqlservers
 PS C:\> $QuotaList = New-MgmtSvcQuotaList
 PS C:\> $SqlQuota = Add-MgmtSvcListQuota -QuotaList $QuotaList -ServiceName sqlservers -ServiceInstanceId $sqlserverRP.InstanceId 
 PS C:\> Add-MgmtSvcQuotaSetting -Quota $SqlQouta -Key Editions -Value '[{"displayName":"Default","groupName":"Default","resourceCount":"10","resourceSize":"1024","resourceSizeLimit":"1024","offerEditionId":"081313063701","groupType":null}]'

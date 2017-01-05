@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Admin.PowerShell.dll-Help.xml
 ms.assetid: 7D94D10E-FE90-4772-8BFE-3C05DFD9934F
 online version: http://go.microsoft.com/fwlink/?LinkID=316343
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 5:31 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Administration/v1.0/New-MgmtSvcQuotaList.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Administration/v1.0/New-MgmtSvcQuotaList.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Administration/v1.0/New-MgmtSvcQuotaList.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/93767eba34ad89edb3696359a7595e41769e0346/AzurePack-cmdlets/Administration/v1.0/New-MgmtSvcQuotaList.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -35,7 +35,7 @@ The **New-MgmtSvcQuotaList** cmdlet creates a quota list.
 
 ### Example 1: Create a quota list and update a plan
 ```
-PS C:\>New-MgmtSvcQuotaList | Update-MgmtSvcPlanQuota -AdminUri "https://Computer01:30004" -Token $Token -PlanId "4396660b"
+PS C:\> New-MgmtSvcQuotaList | Update-MgmtSvcPlanQuota -AdminUri "https://Computer01:30004" -Token $Token -PlanId "4396660b"
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.
@@ -44,7 +44,7 @@ This command creates a quota list and uses the pipeline operator to pass the quo
 
 ### Example 2: Create a quota list and update an add-on
 ```
-PS C:\>New-MgmtSvcQuotaList | Update-MgmtSvcAddOnQuota -AdminUri "https://Computer01:30004" -Token $Token -AddOnId "7b337b38"
+PS C:\> New-MgmtSvcQuotaList | Update-MgmtSvcAddOnQuota -AdminUri "https://Computer01:30004" -Token $Token -AddOnId "7b337b38"
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.

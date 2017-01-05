@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.SqlServer.PowerShell.dll-Help.xml
 ms.assetid: 29BD5519-E221-492E-B64C-13330CEA3FC0
 online version: http://go.microsoft.com/fwlink/?LinkID=321812
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 10:42 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/SQLServer/v1.0/Get-MgmtSvcSqlHostingServerMetric.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/SQLServer/v1.0/Get-MgmtSvcSqlHostingServerMetric.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/SQLServer/v1.0/Get-MgmtSvcSqlHostingServerMetric.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/eb7bff1251dc2a22eafa120c35cbbc43529d3762/AzurePack-cmdlets/SQLServer/v1.0/Get-MgmtSvcSqlHostingServerMetric.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -40,7 +40,7 @@ You can also narrow your results by using the *StartTime* and *EndTime* paramete
 
 ### Example 1: Get the metrics for DatabaseCount
 ```
-PS C:\>Get-MgmtSvcSqlHostingServerMetric -AdminUri "https://Computer01:30004" -Token $Token -HostingServerId "u37k25" -MetricName DatabaseCount
+PS C:\> Get-MgmtSvcSqlHostingServerMetric -AdminUri "https://Computer01:30004" -Token $Token -HostingServerId "u37k25" -MetricName DatabaseCount
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.

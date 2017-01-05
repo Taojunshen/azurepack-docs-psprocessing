@@ -5,11 +5,11 @@ Download Help Link: http://go.microsoft.com/fwlink/?LinkId=316316
 Help Version: 4.0.100.0
 Locale: en-US
 ms.assetid: 1A3CEB6E-45E8-4756-BE12-B782DC953FDF
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 9:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/WebSites.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/WebSites.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/WebSites.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9b04ebf7a96dfac95b0cdb4f6ad2c39512dc39eb/AzurePack-cmdlets/Websites/v1.0/WebSites.md
 uid: Websites/v1.0/WebSites.md
 ms.topic: conceptual
 author: tarameyer
@@ -35,7 +35,7 @@ Gets information about a specified website configuration type.
 Gets events from the event log.
 
 ### [Get-WebSitesHostName](./Get-WebSitesHostName.md)
-Gets hostnames for a web site.
+Gets host names for a web site.
 
 ### [Get-WebSitesOperation](./Get-WebSitesOperation.md)
 Gets information about Dynamic Windows Process Activation Service operations.
@@ -74,7 +74,7 @@ Creates a website web app.
 Creates a website configuration type.
 
 ### [New-WebSitesHostName](./New-WebSitesHostName.md)
-Adds a hostname to a website.
+Adds a host name to a website.
 
 ### [New-WebSitesServer](./New-WebSitesServer.md)
 Creates a website server.
@@ -101,7 +101,7 @@ Removes a website web app.
 Removes the specified website configuration type.
 
 ### [Remove-WebSitesHostName](./Remove-WebSitesHostName.md)
-Removes a hostname from a website.
+Removes a host name from a website.
 
 ### [Remove-WebSitesOperation](./Remove-WebSitesOperation.md)
 Removes a DWAS operation.
@@ -152,7 +152,7 @@ Modifies configuration settings for a website site.
 Modifies a website site policy.
 
 ### [Set-WebSitesSslConfig](./Set-WebSitesSslConfig.md)
-Modifies the SSL configuration settings for a hostname.
+Modifies the SSL configuration settings for a host name.
 
 ### [Set-WebSitesSubscription](./Set-WebSitesSubscription.md)
 Sets property values for a website subscription.

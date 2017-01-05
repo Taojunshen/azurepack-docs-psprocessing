@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: EC158CAD-DE0E-4C01-9734-E6348F7A7832
 online version: http://go.microsoft.com/fwlink/?LinkID=296555
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcDatabaseSetting.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcDatabaseSetting.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcDatabaseSetting.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Set-MgmtSvcDatabaseSetting.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -50,7 +50,7 @@ If you specify a connection string by using the *ConnectionString* parameter, th
 
 ### Example 1: Write a setting to the database
 ```
-PS C:\>$MK = New-MgmtSvcMachineKey
+PS C:\> $MK = New-MgmtSvcMachineKey
 PS C:\> $ConnectionString = 'Data Source=mysqlserver;Initial Catalog=Microsoft.MgmtSvc.Config;User ID=sa;Password=Book67pp'
 PS C:\> Set-MgmtSvcDatabaseSetting -ConnectionString $ConnectionString -Namespace "TenantSite" -Name "machineKey.decryptionKey" -Value $MK.Attributes(""decryptionKey"").Value -Force -Passphrase "PassPhrase01!"
 ```

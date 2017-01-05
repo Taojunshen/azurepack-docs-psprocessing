@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: 2C30DB7C-EF91-457C-9311-197882443725
 online version: http://go.microsoft.com/fwlink/?LinkId=327694
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 9:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/Set-WebSitesSslConfig.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/Set-WebSitesSslConfig.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/Set-WebSitesSslConfig.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9b04ebf7a96dfac95b0cdb4f6ad2c39512dc39eb/AzurePack-cmdlets/Websites/v1.0/Set-WebSitesSslConfig.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -20,7 +20,7 @@ ms.service: Azure-pack
 # Set-WebSitesSslConfig
 
 ## SYNOPSIS
-Modifies the SSL configuration settings for a hostname.
+Modifies the SSL configuration settings for a host name.
 
 ## SYNTAX
 
@@ -29,7 +29,7 @@ Set-WebSitesSslConfig [-ConnectionString <String>] [-WhatIf] [-Confirm] [<Common
 ```
 
 ## DESCRIPTION
-The **Set-WebSitesSslConfig** cmdlet modifies  the Secure Sockets Layer (SSL) configuration settings for a hostname.
+The **Set-WebSitesSslConfig** cmdlet modifies  the Secure Sockets Layer (SSL) configuration settings for a host name.
 SSL provides a way for browsers to communicate with web servers over a secure, encrypted channel.
 
 ## EXAMPLES
@@ -39,7 +39,7 @@ SSL provides a way for browsers to communicate with web servers over a secure, e
 PS C:\> Set-WebSitesSslConfig -HostName "HostName.Contoso.com" -OwnerName "Subscription01+DefaultWebSpace" -IpBasedMode "Ipv6" -SslMode "IpBased"
 ```
 
-This command updates the SSL configuration for the hostname HostName.Contoso.com.
+This command updates the SSL configuration for the host name HostName.Contoso.com.
 
 ## PARAMETERS
 

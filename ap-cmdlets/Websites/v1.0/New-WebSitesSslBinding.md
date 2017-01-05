@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: 0839974B-C130-403C-AC5C-2A59E513C6B7
 online version: http://go.microsoft.com/fwlink/?LinkID=321248
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 9:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/New-WebSitesSslBinding.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/New-WebSitesSslBinding.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/New-WebSitesSslBinding.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9b04ebf7a96dfac95b0cdb4f6ad2c39512dc39eb/AzurePack-cmdlets/Websites/v1.0/New-WebSitesSslBinding.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -40,7 +40,7 @@ An SSL binding associates an SSL certificate with entities such as a website or 
 PS C:\> New-WebSitesSslBinding -FrontEndName "FESERVER01" -IPAddress "FD4A:29CD:184F:3A2C:D07A:489A:1EC4:E2CD" -Port 8443 -HostName "Site01.Contoso.com"
 ```
 
-This command binds a certificate for the hostname Site01.Contoso.com to the IP address FD4A:29CD:184F:3A2C:D07A:489A:1EC4:E2CD and port 8443 found on the front end server named FESERVER01.
+This command binds a certificate for the host name Site01.Contoso.com to the IP address FD4A:29CD:184F:3A2C:D07A:489A:1EC4:E2CD and port 8443 found on the front end server named FESERVER01.
 
 ## PARAMETERS
 

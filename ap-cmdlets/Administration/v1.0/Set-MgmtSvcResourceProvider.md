@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Admin.PowerShell.dll-Help.xml
 ms.assetid: A48B8896-4776-49C9-9864-015A5FB2EAB1
 online version: http://go.microsoft.com/fwlink/?LinkID=316355
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 6:48 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Administration/v1.0/Set-MgmtSvcResourceProvider.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Administration/v1.0/Set-MgmtSvcResourceProvider.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Administration/v1.0/Set-MgmtSvcResourceProvider.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/97a55db972036fa7bf413cbe2fbdbe06fef1d3a1/AzurePack-cmdlets/Administration/v1.0/Set-MgmtSvcResourceProvider.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -56,7 +56,7 @@ The **Set-MgmtSvcResourceProvider** cmdlet updates a resource provider.
 
 ### Example 1: Enable a resource provider
 ```
-PS C:\>Set-MgmtSvcResourceProvider -AdminUri "https://Computer01:30004" -Token $Token -Name "ResourceProvider02" -DisplayName "Resource Provider 02" -InstanceDisplayName "Resource Provider 02.1" -InstanceId "0602c550-0853-48fc-bfbb-dc1f84ac08a3" -Enabled $True
+PS C:\> Set-MgmtSvcResourceProvider -AdminUri "https://Computer01:30004" -Token $Token -Name "ResourceProvider02" -DisplayName "Resource Provider 02" -InstanceDisplayName "Resource Provider 02.1" -InstanceId "0602c550-0853-48fc-bfbb-dc1f84ac08a3" -Enabled $True
 ```
 
 NOTE: This example assumes that you have created a token by using **Get-MgmtSvcToken** and have stored it in a variable named $Token.
@@ -87,8 +87,8 @@ Accept wildcard characters: False
 ```
 
 ### -AdminAuthenticationUser
-Specifies, as a PSCredential object, an administrative user name and password to connect to a resource provider.
-To get a PSCredential object, use the **Get-Credential** cmdlet.
+Specifies, as a **PSCredential** object, an administrative user name and password to connect to a resource provider.
+To get a **PSCredential** object, use the **Get-Credential** cmdlet.
 
 ```yaml
 Type: PSCredential
@@ -196,7 +196,7 @@ Accept wildcard characters: False
 ### -DisableCertificateValidation
 Disables certificate validation for the Windows Azure Pack installation.
 
-If you specifiy this parameter, you can use self-signed certificates.
+If you specify this parameter, you can use self-signed certificates.
 
 ```yaml
 Type: SwitchParameter

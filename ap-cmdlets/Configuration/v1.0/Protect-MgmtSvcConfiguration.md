@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: 5492B41D-7A02-4FC5-B868-238F5A3FD2E4
 online version: http://go.microsoft.com/fwlink/?LinkID=296550
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Protect-MgmtSvcConfiguration.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Protect-MgmtSvcConfiguration.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Protect-MgmtSvcConfiguration.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Protect-MgmtSvcConfiguration.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -41,7 +41,7 @@ Run this cmdlet on the computer that hosts the web.config file.
 
 ### Example 1: Encrypt the config.web file for a namespace
 ```
-PS C:\>Protect-MgmtSvcConfiguration -Namespace "AdminSite"
+PS C:\> Protect-MgmtSvcConfiguration -Namespace "AdminSite"
 ```
 
 This command encrypts the sections of the web.config file that contains secrets, such as connectionStrings, appSettings, and machineKey, for the namespace AdminSite.

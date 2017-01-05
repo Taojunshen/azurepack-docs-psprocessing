@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: D87B5C19-3F9D-4C7B-ACAE-D6503B2276F1
 online version: http://go.microsoft.com/fwlink/?LinkID=296548
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/New-MgmtSvcPassword.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/New-MgmtSvcPassword.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/New-MgmtSvcPassword.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/New-MgmtSvcPassword.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -31,7 +31,7 @@ New-MgmtSvcPassword [-Length <Int32>] [<CommonParameters>]
 ## DESCRIPTION
 The **New-MgmtSvcPassword** cmdlet generates a cryptographically strong password for use with other settings.
 This cmdlet generates a value in memory.
-The Initialize-MgmtSvcFeature cmdlet calls this cmdlet to generate the passwords used across Windows Azure Pack for Windows Server components.
+The **Initialize-MgmtSvcFeature** cmdlet calls this cmdlet to generate the passwords used across Windows Azure Pack for Windows Server components.
 For example, passwords used for database connection strings and access to resource providers.
 
 Use this cmdlet to generate a cryptographically secure random password for use in setting basic authorization credentials.
@@ -41,7 +41,7 @@ You can use the returned string as the value for the *Value* parameter for the *
 
 ### Example 1: Create a password
 ```
-PS C:\>New-MgmtSvcPassword -Length 64
+PS C:\> New-MgmtSvcPassword -Length 64
 ```
 
 This command creates a random password that contains 64 characters.

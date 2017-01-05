@@ -3,11 +3,11 @@ external help file: Microsoft.Web.Hosting.Powershell.dll-Help.xml
 ms.assetid: A0CCECFD-0CEA-4807-B180-4CF8ED025CF5
 online version: http://go.microsoft.com/fwlink/?LinkID=321276
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/3/2017 9:53 PM
+ms.date: 1/3/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/Test-WebSitesServer.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Websites/v1.0/Test-WebSitesServer.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Websites/v1.0/Test-WebSitesServer.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/9b04ebf7a96dfac95b0cdb4f6ad2c39512dc39eb/AzurePack-cmdlets/Websites/v1.0/Test-WebSitesServer.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -51,7 +51,7 @@ For example:
 
 `-ConnectionString "Server=tcp:contosodb.database.windows.net;Database=Personel;User ID=admin@contoso.com;Password=p@ssw0rd;Trusted_Connection=False;Encrypt=True;"`
 
-If you do not specify this parameter **Test-WebSitesServer** uses the default instance of the hosting database.
+If you do not specify this parameter, **Test-WebSitesServer** uses the default instance of the hosting database.
 
 ```yaml
 Type: String

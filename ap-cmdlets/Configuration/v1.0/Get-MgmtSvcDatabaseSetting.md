@@ -3,11 +3,11 @@ external help file: Microsoft.WindowsAzure.Config.PowerShell.dll-Help.xml
 ms.assetid: 5A39C1FA-C245-411F-9B2A-17361AE2E91C
 online version: http://go.microsoft.com/fwlink/?LinkID=296537
 schema: 2.0.0
-updated_at: 12/12/2016 9:25 PM
-ms.date: 12/12/2016
+updated_at: 1/4/2017 4:35 PM
+ms.date: 1/4/2017
 content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcDatabaseSetting.md
 original_content_git_url: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/live/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcDatabaseSetting.md
-gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/b83cde31c8e8df3140400b62cc6698cfc8f37a47/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcDatabaseSetting.md
+gitcommit: https://github.com/MicrosoftDocs/azurepack-docs-powershell/blob/676435fba79c23d58e9141828e751b939d2694b8/AzurePack-cmdlets/Configuration/v1.0/Get-MgmtSvcDatabaseSetting.md
 ms.topic: reference
 author: tarameyer
 ms.author: sngun
@@ -39,7 +39,7 @@ Get-MgmtSvcDatabaseSetting [[-Namespace] <String[]>] [[-Name] <String[]>] [-Pass
 ## DESCRIPTION
 The **Get-MgmtSvcDatabaseSetting** cmdlet reads the configuration settings of a management service component from the database.
 A setting consists of a namespace, a name, and a value.
-If you protected a setting by encrypting it, you need to supply a value for the Passphrase parameter to decrypt the setting.
+If you protected a setting by encrypting it, you need to supply a value for the *Passphrase* parameter to decrypt the setting.
 
 You can run this cmdlet from any computer in the deployment.
 However, this cmdlet assumes that the database is on the local computer.
@@ -50,7 +50,7 @@ If you specify a connection string by using the *ConnectionString* parameter, th
 
 ### Example 1: Get a setting
 ```
-PS C:\>$ConnectionString = 'Data Source=rd-source04;Initial Catalog=Microsoft.MgmtSvc.Config;User ID=SA;Password=PassWord01'
+PS C:\> $ConnectionString = 'Data Source=rd-source04;Initial Catalog=Microsoft.MgmtSvc.Config;User ID=SA;Password=PassWord01'
 PS C:\> Get-MgmtSvcDatabaseSetting -Namespace "TenantSite" -Name "machineKey.decryptionKey" -ConnectionString $ConnectionString -Passphrase "PassPhrase01"
 ```
 
@@ -83,7 +83,7 @@ The Config schema must be in stalled in this database.
 By default, the Config schema is installed in the following databases:
 
 - Microsoft.MgmtSvc.Config
--- Microsoft.MgmtSvc.PortalConfigStore
+- Microsoft.MgmtSvc.PortalConfigStore
 - Microsoft.MgmtSvc.Store
 
 ```yaml
